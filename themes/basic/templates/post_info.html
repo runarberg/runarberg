@@ -1,0 +1,18 @@
+{% macro header(article, show_translations=False) %}
+    <header>
+        <h1 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h1>
+        {% if show_translations %}
+            {% import '!simple/translations.html' as translations with context %}
+            {{ translations.translations_for(article) }}
+        {% endif %}
+    </header>
+{% endmacro %}
+
+{% macro footer(article) %}
+    <footer class="post-info">
+        <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
+        {% if article.author %}
+            <address class="vcard author">Eftir <a class="url fn" href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a></address>
+        {% endif %}
+    </footer>
+{% endmacro %}

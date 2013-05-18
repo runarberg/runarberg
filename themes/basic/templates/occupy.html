@@ -1,0 +1,36 @@
+{% import "page_info.html" as page_info with context %}
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }}{% endblock %}
+{% block head %}
+    {{ super() }}
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ category.slug }}.css" type="text/css" />
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/occupy.css" type="text/css" />
+{% endblock %}
+
+{% block body %}
+    {% block header %}
+        {% call page_info.header() %}
+        {% endcall %}
+    {% endblock %}
+    <article>
+        <header>
+            <h1 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="{{ article.title|striptags }}">{{ article.title }}</a></h1>
+            {{ article.toc }}
+        </header>
+        <div class="article-contents">
+            {{ article.content }}
+        </div>
+        <div class="interactive-footnote"></div>
+        <footer>
+            {{ article.footnotes }}
+            <small>Skrifað {{ article.locale_date }}<br />
+            Eftir {{ article.author }}</small>
+        </footer>
+    </article>
+{% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+    <script src="{{ SITEURL }}/theme/js/occupy.js"></script>
+{% endblock %}

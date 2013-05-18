@@ -1,0 +1,14 @@
+{% import "page_info.html" as page_info with context %}
+
+{% call page_info.header() %}
+{% endcall %}
+
+{% block content %}
+    {% for article in articles %}
+        <section>
+            <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+            {{ article.summary }}
+            <a href="{{ SITEURL }}/{{ article.url }}">Lesa alla söguna</a>
+        </section>
+    {% endfor %}
+{% endblock %}
