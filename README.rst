@@ -1,5 +1,5 @@
- Pælingar, sögur og önnur ritverk
-==================================
+Pælingar, sögur og önnur ritverk
+================================
 
 This is my personal project. One might call it a blog page, but my goals are
 somewhat more ambitious than a mere blogpage might cover. Here I will not only
