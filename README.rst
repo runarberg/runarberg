@@ -38,7 +38,7 @@ For now I'll be working on a few projecs including
       many more of my attemts to try to sound wise.
 
   * **Other writings** that I won't be able to fit into the previous
-      categories, such as...
+    categories, such as...
 
       - My masters project
       - scenes on how I've been doing this all (i.e. tutorials)
