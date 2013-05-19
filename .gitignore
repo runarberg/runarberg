@@ -11,6 +11,7 @@
 # Database files
 *.db
 
+# leave the output folder alone
+output/*
+
 # Other files
-Makefile
-*.sh
