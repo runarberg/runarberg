@@ -1,13 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-from unidecode import unidecode
-from urllib import urlencode
-
 AUTHOR = u'Rúnar Berg'
 SITENAME = u'Rúnar Berg Baugsson Sigríðarson'
 SITESUBTITLE = u'Pælingar, sögur og önnur ritverk'
 SITEURL = 'http://127.0.0.1:8000'
+
+PATH = 'content'
 
 TIMEZONE = 'Atlantic/Reykjavik'
 DATE_FORMATS = {
@@ -27,6 +26,13 @@ ARTICLE_URL = '{category.slug}/{slug}.html'
 ARTICLE_SAVE_AS = '{category.slug}/{slug}.html'
 CATEGORY_URL = '{slug}/'
 CATEGORY_SAVE_AS = '{slug}/index.html'
+
+
+# FILES_TO_COPY = [('extras/.htaccess', '.htaccess'),
+#                  ('extras/favicon.ico', 'favicon.ico'),
+#                  ('extras/apple-touch-icon.png', 'apple-touch-icon.png'),
+#                  ('extras/humans.txt', 'humans.txt'),
+#                  ('extras/robots.txt', 'robots.txt')]
 
 # Blogroll
 LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),

@@ -1,4 +1,0 @@
-RewriteEngine   on
-RewriteBase     /
-RewriteRule     ^app$   cgi-bin/helloworld.py
-RewriteRule     ^app(.*) cgi-bin/helloworld.py$1
