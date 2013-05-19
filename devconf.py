@@ -17,6 +17,7 @@ DEFAULT_LANG = u'is'
 
 PLUGIN_PATH = "/home/sterna/virtualenvs/pelican/pelican-plugins"
 PLUGINS = ["extract_toc", "extract_footnotes", "html5"]
+THEME = "layout"
 
 IGNORE_FILES = ['.#*', '*~', 'TODO']
 
@@ -26,13 +27,6 @@ ARTICLE_URL = '{category.slug}/{slug}.html'
 ARTICLE_SAVE_AS = '{category.slug}/{slug}.html'
 CATEGORY_URL = '{slug}/'
 CATEGORY_SAVE_AS = '{slug}/index.html'
-
-
-# FILES_TO_COPY = [('extras/.htaccess', '.htaccess'),
-#                  ('extras/favicon.ico', 'favicon.ico'),
-#                  ('extras/apple-touch-icon.png', 'apple-touch-icon.png'),
-#                  ('extras/humans.txt', 'humans.txt'),
-#                  ('extras/robots.txt', 'robots.txt')]
 
 # Blogroll
 LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
@@ -47,4 +41,3 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = False
 
-THEME = "themes/basic"
