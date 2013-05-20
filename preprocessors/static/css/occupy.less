@@ -15,17 +15,12 @@ header#banner h1 {
 
 article {
     font-size: 1em;
-    hyphens: auto;
-        -moz-hyphens: auto;
-        -ms-hyphens: auto;
-        -o-hyphens: auto;
-        -webkit-hyphens: auto;
     margin: auto 0.5em;
     width: 50%;
-}
 
-article h2, article h3 {
-    text-align: center;
+    h2, h3 {
+        text-align: center;
+    }
 }
 
 /*
@@ -46,7 +41,7 @@ nav.contents.topic {
         top: 162px;
         right: 0;
         z-index: 1;
-    } nav.contents.topic:before {
+    &:before {
         content: "";
         border-top: 1em solid transparent;
         border-left: 1em solid white;
@@ -55,43 +50,50 @@ nav.contents.topic {
             bottom: 0;
             left: 0;
         width: 0;
-    } nav.contents.topic:hover {
+    }
+    &:hover {
         padding-left: 0;
-        } nav.contents.topic:hover:before {
+        &:before {
             border: 0;
-}
-
-nav.contents.topic h2 {
-    margin: 0.5em;
-    text-align: right;
-}
-
-nav.contents.topic ol {
-    color: #EEE;
-    display: none;
-    line-height: 1em;
-    margin: 0 0.5em 0.5em;
-    transition: all 0.3s ease-out;
-        -moz-transition: all 0.3s ease-out;
-        -ms-transition: all 0.3s ease-out;
-        -o-transition: all 0.3s ease-out;
-        -webkit-transition: all 0.3s ease-out;
-    } nav.contents.topic:hover ol {
-        display: block;
-    } nav.contents.topic > ol {
+        }
+        & ol {
+            display: block;        
+        }
+    }
+    h2 {
+        margin: 0.5em;
+        text-align: right;
+    }
+    ol {
+       color: #EEE;
+       display: none;
+       line-height: 1em;
+       margin: 0 0.5em 0.5em;
+       transition: all 0.3s ease-out;
+           -moz-transition: all 0.3s ease-out;
+           -ms-transition: all 0.3s ease-out;
+           -o-transition: all 0.3s ease-out;
+           -webkit-transition: all 0.3s ease-out;
+    }
+    > ol {
         padding-left: 0;
-}
-
-nav.contents.topic a {
-    color: inherit;
-    } nav.contents.topic a.finished {
-        color: red;
-    } nav.contents.topic a.active:after {
-        content: "\2605";
-        padding-left: 0.2em;
-    } nav.contents.topic a.active:before {
-        content: "\2605";
-        padding-right: 0.2em;
+    }
+    a {
+        color: inherit;
+        &.finished {
+            color: red;
+        }
+        &.active {
+            &:after {
+                content: "\2605";
+                padding-left: 0.2em;
+            }
+            &:before {
+                content: "\2605";
+                padding-right: 0.2em;
+            }
+        }
+    }
 }
 
 /*

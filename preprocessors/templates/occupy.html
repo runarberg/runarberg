@@ -2,10 +2,14 @@
 {% extends "base.html" %}
 
 {% block title %}{{ article.title }}{% endblock %}
-{% block head %}
+{% block stylesheets %}
     {{ super() }}
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ category.slug }}.css" type="text/css" />
-    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/occupy.css" type="text/css" />
+    {% assets filters="less", output="css/occupy.css", "css/occupy.less" %}
+        <link rel="stylesheet"
+              href="{{ SITEURL }}/{{ ASSET_URL }}"
+              type="text/css" />
+    {% endassets %}
 {% endblock %}
 
 {% block body %}

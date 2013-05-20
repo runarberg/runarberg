@@ -16,7 +16,7 @@ DATE_FORMATS = {
 DEFAULT_LANG = u'is'
 
 PLUGIN_PATH = "/home/sterna/virtualenvs/pelican/pelican-plugins"
-PLUGINS = ["extract_toc", "extract_footnotes", "html5"]
+PLUGINS = ["assets", "extract_toc", "extract_footnotes", "html5"]
 THEME = "preprocessors"
 
 IGNORE_FILES = ['.#*', '*~', 'TODO']

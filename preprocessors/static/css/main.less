@@ -88,24 +88,37 @@ textarea {
 }
 
 /* ==========================================================================
+   LESS mixins
+   ========================================================================== */
+
+.smaller {
+    font-size: .875em;
+    line-height: 1.2em;
+}
+
+.super {
+    font-size: 0.75em;
+    line-height: 0;
+    position: relative;
+        top: -0.5em;
+    vertical-align: baseline;
+}
+
+/* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
-a:link {
-    color: blue;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:visited {
-    color: blue;
-}
-
-h1 a, h2 a, h3 a {
-    color: inherit !important;
+a {
+    &:link, &:visited {
+        color: blue;
+        text-decoration: none;
+    }
+    &:hover {
+        text-decoration: underline;
+    }
+    h1 &, h2 &, h3 & {
+        color: inherit !important;
+    }
 }
 
 /*
@@ -118,10 +131,10 @@ header h1 strong {
     font-style: italic;
     font-size: 0.7em;
     padding-left: 2em;
-}
-    header h1 strong:before {
+    &:before {
         content: "\2014"
     }
+}
 
 /*
  *  3. Contents style
@@ -129,92 +142,80 @@ header h1 strong {
  */
 
 /*
- *  3.1 Articles styles
- *  ~~~~~~~~~~~~~~~~~~~
- */
-
-/*
- * Table of contents
- */
- 
-.contents.topic ol {
-    counter-reset: toc-item;
-    list-style-type: none;
-}
-
-.contents.topic li:before {
-    counter-increment: toc-item;
-    content: counters(toc-item, ".");
-    padding-right: .5em;
-}
-
-/*
- * Auto-number the titles
+ *  3.1 Articles standard styles
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
 article {
+    font-family: georgia, serif;
+    text-align: justify;
     line-height: 1.5em;
+
+    /* Auto-number the titles */
     counter-reset: part;
+    h2 {
+        counter-reset: section;
+        &:before {
+            counter-increment: part;
+            content: counter(part) ".";
+            padding-right: .5em;
+        }
+    }
+    h3:before {
+        counter-increment: section;
+        content: counter(part) "." counter(section);
+        padding-right: .5em;
+    }
+    /* Don't number header and footer */
+    header h2:before, footer h2:before {
+        counter-increment: none;
+        content: none;
+        padding-right: 0;
+    }
+
+    p {
+        hyphens: auto;
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            -o-hyphens: auto;
+            -webkit-hyphens: auto;
+        margin: 0;
+        text-indent: 1.75em;
+    }
+    h2 + p, h3 + p {
+        /* Indent paragraphs (APA-style) */
+        text-indent: 0;
+    }
+    .epigraph {
+        .smaller;
+    }
+    .footnote,{
+        .smaller;
+        margin: 1em 0;
+        .label {
+            padding-left: 1.75em;
+            width: 2em;
+        }
+    }
+    .footnote-reference {
+        .super;
+        color: inherit;
+        opacity: 0.7;
+    }
 }
 
-article h2 {
-    counter-reset: section;
-}
+/* Table of contents */ 
 
-article h2:before {
-    counter-increment: part;
-    content: counter(part) ".";
-    padding-right: .5em;
-}
-
-article h3:before {
-    counter-increment: section;
-    content: counter(part) "." counter(section);
-    padding-right: .5em;
-}
-
-article p {
-    margin: 0;
-    text-indent: 1.75em;
-    
-}
-
-article h2 + p, article h3 + p {
-    text-indent: 0;
-}
-
-/*
- * Footnotes
- */
-
-footer h2:before, header h2:before{
-    counter-increment: none;
-    content: none;
-    padding-right: 0;
-}
-
-article .footnote, article .epigraph {
-    font-size: .875em;
-    line-height: 1.2em;
-}
-
-article .footnote {
-    margin: 1em 0;
-}
-
-article .footnote .label {
-    padding-left: 1.75em;
-    width: 2em;
-}
-
-article .footnote-reference {
-    color: inherit;
-    font-size: 0.75em;
-    line-height: 0;
-    opacity: 0.7;
-    position: relative;
-        top: -0.5em;
-    vertical-align: baseline;
+.contents.topic {
+    ol {
+        counter-reset: toc-item;
+        list-style-type: none;
+    }
+    li:before {
+        counter-increment: toc-item;
+        content: counters(toc-item, ".");
+        padding-right: .5em;
+    }
 }
 
 /* ==========================================================================
