@@ -75,15 +75,15 @@ var interactive_footnotes = function () {
 
     var footnote_over = function () {
         // display footnote, assign top offset
-        var footnote = $($(this).attr('href')).find('td').last().text(),
+        var footnote = $($(this).attr('href')).find('td').last().html(),
             screen_top = $(window).scrollTop(),
             screen_bottom = screen_top + $(window).height();
-        $footnote_container.text(footnote);
+        $footnote_container.html(footnote);
         // fix the position of the container to fit in screen
         var ref_align = $(this).offset().top,
-            footnote_height = $footnote_container.height();
-        if ( ref_align - (footnote_height/2) > screen_top &&
-             ref_align + (footnote_height/2) < screen_bottom ) {
+            footnote_height = $footnote_container.outerHeight(true);
+        if ( ref_align - (footnote_height/2) >= screen_top &&
+             ref_align + (footnote_height/2) <= screen_bottom ) {
             $footnote_container.css('top', ref_align - (footnote_height/2));
         } else if ( ref_align - (footnote_height/2) < screen_top ) {
             $footnote_container.css('top', screen_top);
