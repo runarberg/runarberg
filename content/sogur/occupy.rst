@@ -113,13 +113,13 @@ frá „árás“ níumenninganna á Alþingi 2008, fjöldamótmælunum á Austu
 Kryddsíldarmótmælunum, Icesave-kosningunum, hústökunni á Vatnsstíg o.s.frv. En
 ég sagði þeim líka frá misheppnaðri endurmönnun á Alþingi, hvernig „græna“
 ríkisstjórnin hafi reist nýjar virkjanir og færi í nýjar álversframkvæmdir,
-hvernig hún beri ábyrgð á rányrkju jarðhitasvæða (og manngerða jarðskjálfta), og
-frá þeirri staðreynd að „græna“ ríkisstjórnin okkar ber ábyrgð á hvalveiðum. En
-einn vinur þeirra er einmitt virkur meðlimur Greenpeace. Ég sagði þeim líka frá
-sjónarspilinu í kring um endurreisn bankakerfisins, frá ákærunni gegn
-níumenningunum og tilraunum „nýju“ ríkisstjórnarinnar til að fá okkur til að
-borga Icesave, hvað femíniski forsætisráðherrann okkar varð fúl yfir því að
-þjóðin fengi að ráða því hvort hún ætlaði að borga skuldir einkafyrirtækja.
+hvernig hún beri ábyrgð á rányrkju jarðhitasvæða (og manngerða jarðskjálfta),
+og frá þeirri staðreynd að „græna“ ríkisstjórnin okkar ber ábyrgð á
+hvalveiðum\ [#greenpeace]_. Ég sagði þeim líka frá sjónarspilinu í kring um endurreisn
+bankakerfisins, frá ákærunni gegn níumenningunum og tilraunum „nýju“
+ríkisstjórnarinnar til að fá okkur til að borga Icesave, hvað femíniski
+forsætisráðherrann okkar varð fúl yfir því að þjóðin fengi að ráða því hvort
+hún ætlaði að borga skuldir einkafyrirtækja.
 
 Þau urðu fyrir miklum vonbrigðum þegar ég sagði þeim hvað hafði raunverulega
 gerst á Íslandi. „Alltaf þegar eitthvað gerist, þá þarf að eyðileggja það,“
@@ -186,28 +186,29 @@ hlynsírópstré og býflugnabú. Ef hann var spurður sagðist François ekki v
 Kanadabúi heldur Québec-búi. En hann tilheyrir hópi sem krefst aðskilnaðar
 Québec-fylkis og Kanada\ [#adskilnadarstefna]_.
 
-Í Montréal áttaði ég mig á því að ameríski aktivisminn var ekki jafn bitlaus og
-ég hafði áður haldið. Aktivisminn í Norður-Amerísku heimsálfunni var ekki bara
-nokkrir sósíalistar að berjast fyrir betra heilbrigðiskerfi, heldur voru þarna
-róttæklingar á par við evrópska anarkista. Munurinn á Evrópu og Ameríku var
-einungis falinn í hversu sýnilegir aðgerðasinnarnir eru. Í Evrópu eru haldnar
-götuóeirðir, bílar og hraðbankar eru brenndir, tómum húsum er breytt í
-byltingarmiðstöðvar og pólitísk hæli og svartir fánar anarkismans eru við hverja
-kröfugöngu. Í Norður-Ameríku ná svörtu fánarnir ekki út fyrir áróðursblöðin og
-útvarpserindin, mótmælagöngurnar eru á gangstéttum til að trufla ekki bílaumferð
-og ef fyrirtæki stendur fyrir mannréttindabrotum og umhverfisspjöllum eru rúður
-höfuðstöðva þeirra ekki brotnar, heldur er nóg að sneiða hjá vörum þeirra og
-þjónustu. Ameríska byltingin var horfin, byltingarsinnar hittust ekki lengur á
-kaffihúsum að ræða næstu aðgerð gegn breska heimsveldinu, byltingin hafði
-smækkað í lífrænar bújarðir, smábýli, bændamarkað sem selur handsaumaðar töskur
-frá heimabyggð, samvinnumiðuð kaupfélög, rokktónlist, frjálsa sköpun og
-heimaræktað spínat. En þetta var byrjað að breytast með
-Occupy-mótmælunum. Frjóar hugmyndir amerísku aðgerðarsinnanna áttu loksins eftir
-að líta dagsins ljós og geta af sér eitthvað nýtt, eitthvað sem evrópsku
-hugsjónasystkin þeirra höfðu ekki reynt áður. Ég yfirgaf Kanada þar sem hver
-ljósastaur, hver veggur og hvert tré kanadísku borganna var merkt: „*Occupy
-Montréal/Toronto/Windsor: October 15*\ |th|\ *!*“ Aldan var að ná mér, og ég
-lét hana skola mér til Mið-vesturríkjanna.
+Í Montréal áttaði ég mig á því að ameríski aktivisminn var ekki jafn bitlaus
+og ég hafði áður haldið. Aktivisminn í Norður-Amerísku heimsálfunni var ekki
+bara nokkrir sósíalistar að berjast fyrir betra heilbrigðiskerfi, heldur voru
+þarna róttæklingar á par við evrópska anarkista. Munurinn á Evrópu og Ameríku
+var einungis falinn í hversu sýnilegir aðgerðasinnarnir eru. Í Evrópu eru
+haldnar götuóeirðir, bílar og hraðbankar eru brenndir, tómum húsum er breytt í
+byltingarmiðstöðvar og pólitísk hæli og svartir fánar anarkismans eru við
+hverja kröfugöngu. Í Norður-Ameríku ná svörtu fánarnir ekki út fyrir
+áróðursblöðin og útvarpserindin, mótmælagöngurnar eru á gangstéttum til að
+trufla ekki bílaumferð og ef fyrirtæki stendur fyrir mannréttindabrotum og
+umhverfisspjöllum eru rúður höfuðstöðva þeirra ekki brotnar, heldur er talið
+nóg að sneiða hjá vörum þeirra og þjónustu. Ameríska byltingin var horfin,
+byltingarsinnar hittust ekki lengur á kaffihúsum að ræða næstu aðgerð gegn
+breska heimsveldinu, byltingin hafði smækkað í lífrænar bújarðir, smábýli,
+bændamarkað sem selur handsaumaðar töskur frá heimabyggð, samvinnumiðuð
+kaupfélög, rokktónlist, frjálsa sköpun og heimaræktað spínat. En þetta var
+byrjað að breytast með Occupy-mótmælunum. Frjóar hugmyndir amerísku
+aðgerðarsinnanna áttu loksins eftir að líta dagsins ljós og geta af sér
+eitthvað nýtt, eitthvað sem evrópsku hugsjónasystkin þeirra höfðu ekki reynt
+áður. Ég yfirgaf Kanada þar sem hver ljósastaur, hver veggur og hvert tré
+kanadísku borganna var merkt: „*Occupy Montréal/Toronto/Windsor: October 15*\
+|th|\ *!*“ Aldan var að ná mér, og ég lét hana skola mér til
+Mið-vesturríkjanna.
 
 Lífið í mótmælum
 ----------------
@@ -216,7 +217,7 @@ Occupy Detroit
 ~~~~~~~~~~~~~~
 
 Í Detroit náði aldan mér. Seinasta daginn minn í Detroit var mótmælaganga
-sem markaði upphaf götutökunnar (occupy-inu) í Detroit.
+sem markaði upphaf götutökunnar í Detroit.
 
 Ég hafði heyrt af þessari gömlu höfuðborg bílaiðnaðarins, fyrsta fórnarlambi
 hrunsins, vöggu hins póst-kapítalíska lífstíls. Ég hafði heyrt að í þessari
@@ -230,10 +231,10 @@ fyrirmynd, einungis nauðþurftarhústökur, óopinberar búsetu-hústökur. Fó
 tekur þetta tóma, þetta affall kapítalismans, og nýtir það í ópólitískum
 tilgangi. Þarna er fólk ekki að berjast gegn kapítalisma með aðgerðum sínum,
 heldur lifa handan hans. Hústökurnar og lóðatökurnar eru sem sagt
-póst-kapítalískar.
+*póst-kapítalískar*.
 
 Occupy-mótmælin voru þó púra pólitísk, beinar aðgerðir gegn kapítalisma,
-and-kapítalísk. Í mótmælagöngunni, sem markaði upphaf *Occupy Detroit*, bar
+and-kapítalísk. Í mótmælagöngunni, sem markaði upphaf Occupy Detroit, bar
 fólk skilti og hrópaði slagorð. Aðallega beindust orðin gegn bönkum og
 hagfræðikenningum. Niðurstöðu hæstaréttar sem skilgreindi fyrirtæki sem
 manneskjur var mótmælt, lánaþrældómi var mótmælt og auðsöfnun ríkustu 1% á
@@ -470,10 +471,52 @@ Occupy Seattle
 .. Vandræði samfélagsins, geðveiki götunnar gerir allar beinar aðerðir mjög
    erfiðar
 
+Það var skrýtin stemningin að koma úr Occupy Boise, þar sem allt gekk svo vel
+upp, í Occupy Seattle, með öll sín vandamál. Occupy Boise hafði nýtt sér það
+hegðunarmynstur yfirvalda, að tjaldbúðir sem rísa á svæði sem tilheyrir
+fylkinu, er frekar látið í friði frá lögreglunni, en t.d. svæði sem tilheyrir
+borginni. Með því að tjalda á landi fylkisins fylgdi því ákveðið sjálfstæði
+sem Occupy Seattle hafði ekki.
+
+Tjaldbúðirnar í Seattle risu á skólalóð nálægt miðborginni, með samþykki,
+stjórnar skólans. Það samþykki var ekki jafn frelsandi og halda mætti því það
+gerði hreyfinguna háða yfirvaldi sem náði handan. Fíkniefnavandamál
+borgarinnar samanþjöppuðust í kringum mótmælin og samblönduðust
+þeim. Sjúkrabíllinn mætti til tjaldbúðanna a.m.k. einu sinni á dag því að
+einhver ábúandanna hafði tekið of stóran skammt. Auðvitað leið ekki á löngu
+fyrr en skólayfirvöld urðu þreytt á gangi mála og snérust gegn hreyfingunni.
+
+Þessi vandamál voru ekki hreyfingunni að kenna. Þó var hún berskjölduð fyrir
+þeim. Fjöldi heimillislausra í Seattle er geysimikill, stór hluti þeirra á við
+fíkniefnavandamál að stríða. Borgaryfirvöld gera lítið sem ekkert í málinu,
+nema kannski að handataka þessi fornarlömb fíknarinnar og glæpavæða sjúkdóminn
+þeirra. Occupy-hreyfingin veitti þessu fólki skjól og bauð þeim upp á mat, gaf
+þeim veraldleg gæði sem þau áður þurftu að betla eða stela fyrir. Fólk er ekki
+vant að breyta hátterni sínu yfir nóttu, svo þegar í tjalbúðirnar var komið,
+var þar stór hluti, inn á milli aðgerðarsinna, sem hélt áfram sínum betlandi
+og stelandi lífstíl.
+
+Að búa við hlið þessara vandamála er eitt og séð nógu erfitt, og eflaust hafa
+margir aðgerðarsinnar fengið nóg við það eitt. Fjölmiðlar, og eflaust hinn
+meðal-borgarbúi, sáu þetta ekki sem erfiðleika, eða vandamál, heldur sem
+skömm. *Occupy? — Unglingar, götustrákar, fífl, hirðuleysingjar sem koma
+saman, rusla til, dópa, drekka, þykjast meiga allt, og þykjast hafa einhvern
+málstað. Einhverja ástæðu.* **Svei!** Órökstuddar lygasögur og rógburður
+birtist í „virtum“ fjölmiðlum sem greindu frá þessum mótmælum. Umræðuefnið var
+oftar en ekki rusl, rottugangur, fíkniefnamisnotkun og annað slíkt. Í Seattle
+hefur þetta allt verið vandamál frá því á sjötta áratug seinustu aldar, og
+þurftu borgarbúar aðeins að líta út fyrir bílrúðuna sína til að sjá þetta um
+allar götur Seattle-borgar. Occupy-mótmælin fengu þó skömmina fyrir þetta. 
+
 Occupy Portland & San Francisco
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. Aðgerðir lögreglunnar. Kannski sameina San Francisco við þennan kafla
+
+Nóttina sem ég kom til Seattle voru fáir mótmælendur í tjaldbúðunum, þorri
+þeirra hafði farið til nágrannaborgarinnar Portland að hjálpa til við að verja
+búðirnar þar frá yfirvofandi árás lögreglunnar. Morguninn eftir fékk ég að
+heyra árangurinn í tvennu lagi:
 
 Occupy the South West
 ~~~~~~~~~~~~~~~~~~~~~
@@ -490,9 +533,11 @@ Neðanmálsgreinar
 
 .. [#ny_storf] Umræðan um þessar pípur minnti mig á
    Kárahnjúkavirkjun. Hrikalegar rökleysur, vítavert veruleikarof og
-   hræðsluáróður einkenndi orðræðu þeirra sem vildu byggja pípurnar. „Barack
-   Obama, ekki segja NEI við 20.000 störfum. Hugsaðu um samfélagið!“ „Við
-   erum í kreppu. Við eigum ekki efni á að vera umhverfissinnuð.“
+   hræðsluáróður einkenndi orðræðu þeirra sem vildu byggja pípurnar. *„Barack
+   Obama, ekki segja NEI við 20.000 störfum!“* *„Við erum í kreppu. Við eigum
+   ekki efni á að vera umhverfissinnuð.“*
+
+.. [#greenpeace] Einn vinur þeirra er einmitt virkur meðlimur Greenpeace.
 
 .. [#adskilnadarstefna] Aðskilnaðarstefna er vinsæl meðal aðgerðasinna í
    norður-amerísku heimsálfunni. Enginn alvöru aðgerðarsinni vill lifa undir
