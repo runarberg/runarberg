@@ -108,6 +108,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*
+ *  1. Basic style
+ *  --------------
+ */
+
+body {
+
+}
+
 a {
     &:link, &:visited {
         color: blue;
@@ -126,13 +135,19 @@ a {
  *  ---------------
  */
 
-header h1 strong {
-    display: block;
-    font-style: italic;
-    font-size: 0.7em;
-    padding-left: 2em;
-    &:before {
-        content: "\2014"
+header#main_header {
+        background-color: #FF7777;
+    h1 strong {
+        display: block;
+        font-style: italic;
+        font-size: 0.7em;
+        padding-left: 2em;
+        &:before {
+            content: "\2014"
+        }
+    }
+    nav#main_nav {
+        background-color: #77FF77;
     }
 }
 
@@ -182,7 +197,7 @@ article {
         margin: 0;
         text-indent: 1.75em;
     }
-    h2 + p, h3 + p {
+    h2 + p, h3 + p, .math + p {
         /* Indent paragraphs (APA-style) */
         text-indent: 0;
     }
@@ -215,6 +230,33 @@ article {
         counter-increment: toc-item;
         content: counters(toc-item, ".");
         padding-right: .5em;
+    }
+}
+
+/*
+ *  4. Footer style
+ *  ---------------
+ */
+
+footer#main_footer {
+    small {
+        border-top: 1px solid black;
+        display: block;
+        font-size: 0.75em;
+        margin: 1em 2em;
+        padding-top: 1em;
+        width: 70%;
+        .license {
+            display: table;
+        }
+        .license-img {
+            display: table-cell;
+            padding-right: 2px;
+            vertical-align: middle;
+        }
+        .license-text {
+            display: table-cell;
+        }
     }
 }
 
