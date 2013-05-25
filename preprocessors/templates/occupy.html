@@ -1,22 +1,19 @@
-{% import "page_info.html" as page_info with context %}
 {% extends "base.html" %}
+
+{% import "page_info.html" as page_info with context %}
+{% from "snippets/macros.html" import add_less %}
 
 {% block title %}{{ article.title }}{% endblock %}
 {% block stylesheets %}
     {{ super() }}
-    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ category.slug }}.css" type="text/css" />
-    {% assets filters="less", output="css/occupy.css", "css/occupy.less" %}
-        <link rel="stylesheet"
-              href="{{ SITEURL }}/{{ ASSET_URL }}"
-              type="text/css" />
-    {% endassets %}
+    {{ add_less("sogur") }}
+    {{ add_less("occupy") }}
 {% endblock %}
 
 {% block body %}
-    {% block header %}
-        {% call page_info.header() %}
-        {% endcall %}
-    {% endblock %}
+    <header id="main_header">
+        {% include "snippets/main_heading.html" %}
+    </header>
     <article>
         <header>
             <h1 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="{{ article.title|striptags }}">{{ article.title }}</a></h1>

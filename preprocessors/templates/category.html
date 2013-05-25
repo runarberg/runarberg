@@ -1,9 +1,15 @@
 {% extends "base.html" %}
 
+{% from "snippets/macros.html" import add_less as add_style %}
+
 {% block title %}{{ category }}{% endblock %}
 {% block stylesheets %}
     {{ super() }}
-    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ category.slug }}.css" type="text/css" />
+    {% if category.slug == "sogur" %}
+        {{ add_style("sogur") }}
+    {% elif category.slug == "paelingar" %}
+        {{ add_style("paelingar") }}
+    {% endif %}
 {% endblock %}
 
 {% block body %}

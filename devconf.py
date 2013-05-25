@@ -7,6 +7,7 @@ SITESUBTITLE = u'Pælingar, sögur og önnur ritverk'
 SITEURL = 'http://127.0.0.1:8000'
 
 PATH = 'content'
+OUTPUT_path = 'output'
 
 TIMEZONE = 'Atlantic/Reykjavik'
 DATE_FORMATS = {
@@ -16,7 +17,8 @@ DATE_FORMATS = {
 DEFAULT_LANG = u'is'
 
 PLUGIN_PATH = "/home/sterna/virtualenvs/pelican/pelican-plugins"
-PLUGINS = ["assets", "extract_toc", "extract_footnotes", "html5"]
+PLUGINS = ["assets", "extract_toc", "extract_footnotes", "prettyprint",
+           "html5"]
 THEME = "preprocessors"
 
 IGNORE_FILES = ['.#*', '*~', 'TODO']
