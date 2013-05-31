@@ -19,7 +19,7 @@ DEFAULT_LANG = u'is'
 PLUGIN_PATH = "/home/sterna/virtualenvs/pelican/pelican-plugins"
 PLUGINS = ["assets", "extract_toc", "extract_footnotes", "prettyprint",
            "html5"]
-THEME = "preprocessors"
+THEME = "theme"
 
 IGNORE_FILES = ['.#*', '*~', 'TODO']
 
@@ -42,4 +42,3 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = False
-

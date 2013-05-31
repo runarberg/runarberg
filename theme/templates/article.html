@@ -1,0 +1,14 @@
+{% import "snippets/post_info.html" as post_info %}
+{% extends "category.html" %}
+
+{% block title %}{{ article.title }}{% endblock %}
+
+{% block contents %}
+    <article id="content" class="body">
+        {{ post_info.header(article) }}
+        {{ post_info.footer(article) }}
+        <div class="entry-content">
+            {{ article.content }}
+        </div>
+    </article>
+{% endblock contents %}

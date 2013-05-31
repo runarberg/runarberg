@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% from "snippets/macros.html" import article_preview %}
+
+{% block body %}
+    {% block header %}
+        <header id="main_header">
+            {% include "snippets/main_heading.html" %}
+        </header>
+    {% endblock header %}
+    {% block contents %}
+        <noscript>
+            {% include "snippets/main_nav.html" %}
+        </noscript>
+        <section class="contents">
+            <h1>Pistlar</h1>
+            <ul>
+                {% for category, _ in categories %}<li>
+                    <section id="{{ category.slug }}">
+                        <h1><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</h1>
+                        {{ article_preview(articles, category) }}
+                    </section>
+                </li>{% endfor %}
+            </ul>
+        </section>
+    {% endblock contents %}
+    {% block footer %}
+        <footer id="main_footer">
+            {% include "snippets/main_footer.html" %}
+        </footer>
+    {% endblock footer %}
+{% endblock body %}

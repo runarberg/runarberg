@@ -167,7 +167,7 @@ article {
     line-height: 1.5em;
 
     /* Auto-number the titles */
-    counter-reset: part;
+    counter-reset: part equation;
     h2 {
         counter-reset: section;
         &:before {
@@ -197,7 +197,8 @@ article {
         margin: 0;
         text-indent: 1.75em;
     }
-    h2 + p, h3 + p, .math + p {
+    p:first-child, h2 + p, h3 + p,
+    .math + p, dl + p {
         /* Indent paragraphs (APA-style) */
         text-indent: 0;
     }
@@ -217,6 +218,13 @@ article {
         color: inherit;
         opacity: 0.7;
     }
+
+    /* Definition lists */
+    dl {
+        dt {
+            font-weight: bold;
+        }
+    }
 }
 
 /* Table of contents */ 
@@ -230,6 +238,38 @@ article {
         counter-increment: toc-item;
         content: counters(toc-item, ".");
         padding-right: .5em;
+    }
+}
+
+/* Auto number equations */
+
+article {
+    div.math {
+        display: table;
+        width: 100%;
+        &:after {
+            counter-increment: equation;
+            content: "(" counter(equation) ")";
+            display: table-cell;
+            padding-right: 0.5em;
+            text-align: right;
+        }
+    }
+}
+
+/*
+ *  3.2 Article sample stye
+ *  ~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+article.sample {
+    counter-reset: none;
+    width: 61.8%;
+    p {
+        font-size: 0.9em;
+        line-height: 1.2em;
+        padding: 0 2em;
+        text-indent: 0;
     }
 }
 

@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+
+{% from "snippets/macros.html" import add_less, article_preview %}
+
+{% block title %}{{ category }}{% endblock %}
+{% block stylesheets %}
+    {{ super() }}
+    {% if category.slug == "sogur" %}
+        {{ add_less("sogur") }}
+    {% elif category.slug == "paelingar" %}
+        {{ add_less("paelingar") }}
+    {% endif %}
+{% endblock %}
+
+{% block contents %}
+    {{ article_preview(articles, category) }}
+{% endblock contents %}

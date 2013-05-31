@@ -9,8 +9,16 @@ Bandaríkin á tímum Occupy
 :group: Sögur
 :template: occupy
 
-:summary: Þetta er sagan um það þegar ég ferðaðist um Bandaríkin á tímum
-          occupy. 
+:summary: Veturinn 2012–2013 var ég á puttaferðalagi um Bandaríkin, markmiðið
+          var að skoða sem mest fyrir sem minnstan pening. Þennan sama vetur
+          gerðist svolítið merkilegt í þessum sama heimshluta. Fólk fjölmennti
+          í almenningsgörðum og á götutorgum, og tók sér þau,
+          *occupy-uðu*. Þorri puttaferðalagsins fór því í það að heimsækja
+          þessi flest þau occupy sem urðu á vegi mínum.  Þetta er sagan
+          þeirra, hvernig þau hófust, stækkuðu, og lognuðust svo út. En þetta
+          er líka saga puttaferðalangs sem sá þetta allt gerast á vegum
+          úti. Þettar er sagan um það þegar ég ferðaðist um Bandaríkin á tímum
+          occupy.
 
 .. contents:: Efnisyfirlit
 ..
