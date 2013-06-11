@@ -3,15 +3,24 @@ var NewAjaxLink = function (title, href) {
     // <body class="ajax"> 
     var links = $('body.index a[href="'+ window.location.origin + href +'"]');
     links.click(function () {
-        $('header h2 a.active').removeClass('active');
         History.pushState(null, title, href);
-        links.addClass('active');
+        update_active_cat();
         return false;
     });
 }
 
+var update_active_cat = function () {
+    $('header h2 a.active').removeClass('active');
+    $('a[href$="'+ window.location.pathname +'"]').addClass('active');
+}
+
 var AddHashNav = function (hashmatch, container) {
+    var update_active_hash = function () {
+        $('a:regex(href, #)').removeClass('active');
+        $('a[href$="'+ window.location.hash +'"]').addClass('active');
+    };
     var change_from_hash = function () {
+        update_active_hash();
         if ( !window.location.hash ) {
             // empty hash, show default header
             change_content(container, container + ' > header');
@@ -20,11 +29,9 @@ var AddHashNav = function (hashmatch, container) {
             change_content(container, window.location.hash);
             return false;
         }
-    }
+    };
     change_from_hash();
     $(window).on('hashchange', function (e) {
-        $('a:regex(href, #)').removeClass('active');
-        $('a[href$="'+ window.location.hash +'"]').addClass('active');
         change_from_hash();
     });
 }
@@ -88,6 +95,7 @@ var setup = function () {
         NewAjaxLink('Sögur', '/sogur/');
         NewAjaxLink('Önnur ritverk', '/onnur-ritverk/');
         AddHashNav(/preview$/, 'section.category-content');
+        update_active_cat();
     }
     if ( $('a.footnote-reference').length > 0 ) {
         interactive_footnotes();
