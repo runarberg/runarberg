@@ -11,7 +11,9 @@ var NewAjaxLink = function (title, href) {
 
 var update_active_cat = function () {
     $('header h2 a.active').removeClass('active');
-    $('a[href$="'+ window.location.pathname +'"]').addClass('active');
+    $('body.index a[href="'+ window.location.origin +
+                             window.location.pathname +'"]')
+        .addClass('active');
 }
 
 var AddHashNav = function (hashmatch, container) {
