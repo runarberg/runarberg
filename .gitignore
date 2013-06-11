@@ -4,6 +4,7 @@
 # all temp files (~)
 *~
 *#*#
+public/theme/.webassets-cache/*
 
 # all python compiled files (.pyc)
 *.pyc
