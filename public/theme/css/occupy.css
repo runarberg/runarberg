@@ -1,3 +1,12 @@
+.main-container {
+  margin: 0;
+}
+@media only screen and (min-width: 920px) {
+  .main-container {
+    width: 100%;
+    margin: 0;
+  }
+}
 /*
  * Prettier header
  */
@@ -6,6 +15,9 @@ header#main_header h1 {
   color: white;
   margin: 0;
   padding: 1em 0.5em;
+}
+header#main_header h2 {
+  display: none;
 }
 /*
  * Article style
@@ -92,14 +104,8 @@ nav.contents.topic a.active:before {
  * Interactive footnotes
  */
 div.interactive-footnote {
-  border-left: 1px solid black;
-  font-size: 0.875em;
-  line-height: 1.2em;
-  margin: .5em 0 .5em 1.2em;
-  padding: .2em;
   position: absolute;
   left: 50%;
-  width: 25%;
 }
 ::selection {
   background-color: black;
