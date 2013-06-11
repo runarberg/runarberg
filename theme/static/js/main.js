@@ -1,9 +1,11 @@
 var NewAjaxLink = function (title, href) {
     // only create ajax links in `body` element with class of `ajax`
     // <body class="ajax"> 
-    $('body.index a[href="'+ window.location.origin + href +'"]')
-    .click(function () {
+    var links = $('body.index a[href="'+ window.location.origin + href +'"]');
+    links.click(function () {
+        $('header h2 a.active').removeClass('active');
         History.pushState(null, title, href);
+        links.addClass('active');
         return false;
     });
 }
@@ -21,6 +23,8 @@ var AddHashNav = function (hashmatch, container) {
     }
     change_from_hash();
     $(window).on('hashchange', function (e) {
+        $('a:regex(href, #)').removeClass('active');
+        $('a[href$="'+ window.location.hash +'"]').addClass('active');
         change_from_hash();
     });
 }

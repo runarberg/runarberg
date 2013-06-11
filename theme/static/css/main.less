@@ -162,7 +162,20 @@ header#main-header {
         padding-left: 2em;
         margin-top: 0;
         &:before {
-            content: "\2014"
+            content: "\2014";
+        }
+        a{
+            &.active {
+                background-color: white;
+                border-top: 2px solid black;
+                border-right: 2px solid black;
+                border-bottom: 2px solid white;
+                border-left: 2px solid black;
+                border-top-left-radius: 0.75em;
+                border-top-right-radius: 0.75em;
+                font-style: normal;
+                padding: 0.2em 0.2em 1.75em;
+            }
         }
     }
 }
@@ -191,10 +204,24 @@ section.content {
     display: table-cell;
     vertical-align: top;
     width: 38.1%;
+    ul {
+        padding-left: 0;
+        list-style: none;
+    }
     li {
         font-size: 1.25em;
-        a {
-            color: black;
+        margin-left: -2px;
+    }
+    a {
+        color: black;
+        padding: 0 2em;
+        &.active {
+            background-color: white;
+            border-top: 2px solid black;
+            border-right: 2px solid black;
+            border-bottom: 2px solid black;
+            border-top-right-radius: 2em;
+            border-bottom-right-radius: 2em;
         }
     }
 }
