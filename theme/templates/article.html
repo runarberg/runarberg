@@ -4,11 +4,13 @@
 {% block title %}{{ article.title }}{% endblock %}
 
 {% block contents %}
-    <article id="content" class="body">
-        {{ post_info.header(article) }}
-        {{ post_info.footer(article) }}
-        <div class="entry-content">
-            {{ article.content }}
-        </div>
-    </article>
+    <section class="contents">
+        <article>
+            {{ post_info.header(article) }}
+            {{ post_info.footer(article) }}
+            <div class="entry-content">
+                {{ article.content }}
+            </div>
+        </article>
+    </section>
 {% endblock contents %}

@@ -1,12 +1,26 @@
+.main-container {
+    margin: 0;
+    @media only screen and (min-width: 920px) {
+        width: 100%;
+        margin: 0;
+    }
+}
+
 /*
  * Prettier header
  */
 
-header#main_header h1 {
-    background-color: black;
-    color: white;
-    margin: 0;
-    padding: 1em 0.5em;
+header#main_header{
+    h1 {
+        background-color: black;
+        color: white;
+        margin: 0;
+        padding: 1em 0.5em;
+    }
+
+    h2 {
+        display: none;
+    }
 }
 
 /*
@@ -101,14 +115,8 @@ nav.contents.topic {
  */
 
 div.interactive-footnote {
-    border-left: 1px solid black;
-    font-size: 0.875em;
-    line-height: 1.2em;
-    margin: .5em 0 .5em 1.2em;
-    padding: .2em;
     position: absolute;
         left: 50%;
-    width: 25%;
 }
 
 ::selection {

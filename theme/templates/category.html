@@ -1,17 +1,24 @@
 {% extends "index.html" %}
 
-{% from "snippets/macros.html" import add_less, article_preview %}
+{% from "snippets/post_info.html" import article_preview %}
 
 {% block title %}{{ category }}{% endblock %}
-{% block stylesheets %}
-    {{ super() }}
-    {% if category.slug == "sogur" %}
-        {{ add_less("sogur") }}
-    {% elif category.slug == "paelingar" %}
-        {{ add_less("paelingar") }}
-    {% endif %}
-{% endblock %}
 
 {% block contents %}
-    {{ article_preview(articles, category) }}
+    <section class="content category clearfix" id="{{ category.slug }}">
+        <aside class="article-list"><ul>
+            {% for article in articles %}
+                <li><a href="#{{ article.slug }}-preview">{{ article.title }}</a></li>
+            {% endfor %}
+        </ul></aside>
+        <section class="category-content">
+            <header>
+                <h2>{{ category }}</h2>
+                {% block summary %}
+                    {% include "snippets/" ~ category.slug ~ "_summary.html"
+                    ignore missing %}
+                {% endblock summary %}
+            </header>
+            {{ article_preview(articles, category) }}
+    </section>
 {% endblock contents %}

@@ -16,3 +16,17 @@
         {% endif %}
     </footer>
 {% endmacro %}
+
+{% macro article_preview(articles, match_cat) %}
+    {% for article in articles if article.category == match_cat %}
+        <article class="preview"
+                 id="{{ article.slug }}-preview">
+            {{ header(article) }}
+            {{ footer(article) }}
+            <div class="summary">
+                {{ article.summary }}
+                <a href="{{ SITEURL }}/{{ article.url }}" class="read-more">Lesa</a>
+            </div>
+        </article>
+    {% endfor %}
+{% endmacro %}

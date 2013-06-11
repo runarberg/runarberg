@@ -25,7 +25,7 @@ sem enda á því að búa það til, eða einhver annar, þá verður það *æ
 
 Lokaverkefnið mitt til bakkalársgráðu í sálfræði var tilraun til að
 atferlismóta heilavirkni\ [#]_. Við þá tilraun notaði ég heilarafrit
-(*electroencephalogram*, EEG), og lærða þar hversu einföld þessi tækni
+(:abbr:`EEG (electroencephalogram)`), og lærða þar hversu einföld þessi tækni
 er. Tilraunin mín var háð þeirri kenningu að hægt sé að læra að beita heilanum
 á nýjan hátt eftir endursvörun frá umhverfinu (þ.e. læra nýja hegðun), alveg
 eins og maður með limi. Þegar þú plokkar gítarstreng lærir þú smátt og smátt,
@@ -35,7 +35,7 @@ vöðvavexti í fingrunum, heldur í heilanum. Ég spurði bara hvort þetta gæ
 gerst í öðrum heilasvæðum sem ekki endilega eru tengd úttaugakerfinu\ [#]_.
 
 Ég ætla ekki að fara nákvæmlega út í tilraunina mína, áhugasömum er bent á að
-lesa `BS-ritgerðina <http://hdl.handle.net/1946/8628>`_ mína. 
+lesa `BS-ritgerðina <http://hdl.handle.net/1946/8628>`_ mína.
 
 .. [#] Hugsanlega mun ég einhvern daginn birta styttri og skemmtilegri útgáfu
    af þessari ritgerð á þessari vefsíðu, en þangað til má nálgast hana á

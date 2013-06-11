@@ -97,7 +97,7 @@ að fara að hugsa mengjafræðina upp á nýtt. Það má ekki lengur skilgrein
 mengi sem er. Þar sem þversögn Russells er fullkomlega sambærileg við þversögn
 lygarans, þá ættu afleiðingarnar líka að vera svipaðar. *Það má ekki
 skilgreina aðgerð sem er í mótsögn við sjálfa sig.* Sannleiksprófunun
-:math:`Q(S)` sem ég skilgreindi í `jöfnu 4 <#eq4>` er því óskilgreinanleg.
+:math:`Q(S)` sem ég skilgreindi í `jöfnu 4 <#eq4>`_ er því óskilgreinanleg.
 
 Kennisetning 1
   Það er engin góð ástæða fyrir því að þessi fullyrðing sé til nokkurra

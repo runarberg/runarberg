@@ -1,9 +1,9 @@
-<h1><a href="{{ SITEURL }}">{{ SITENAME }}</a></h1>
+<h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
 <h2>{%- for category, _ in categories %}
-    {% set cat = '<a href="%s/%s">%s</a>'
+    {%- set cat = '<a href="%s/%s">%s</a>'
                    |format(SITEURL, category.url, category) %}
     {%- if loop.first %}
-        {{ cat }},
+        {{- cat }},
     {%- elif loop.revindex > 2 %}
         {{ cat|lower() }},
     {%- elif loop.revindex == 2 %}

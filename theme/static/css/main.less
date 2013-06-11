@@ -96,6 +96,12 @@ textarea {
     line-height: 1.2em;
 }
 
+.section-borders {
+    border: 2px solid black;
+    border-radius: 3em;
+    margin: 1em auto;
+}
+
 .super {
     font-size: 0.75em;
     line-height: 0;
@@ -113,8 +119,12 @@ textarea {
  *  --------------
  */
 
-body {
-
+.main-container {
+    margin: 0 0.5em;
+    @media only screen and (min-width: 920px) {
+        width: 920px;
+        margin: 0 auto;
+    }
 }
 
 a {
@@ -131,40 +141,80 @@ a {
 }
 
 /*
+ *  1.1 Category style
+ *  ------------------
+ */
+
+/*
  *  2. Header style
  *  ---------------
  */
 
-header#main_header {
-        background-color: #FF7777;
-    h1 strong {
-        display: block;
+header#main-header {
+    background-color: #FF7777;
+    .section-borders;
+    h1 {
+        margin: 0.7em 1em 0;
+    }
+    h2 {
         font-style: italic;
-        font-size: 0.7em;
+        font-size: 1.5em;
         padding-left: 2em;
+        margin-top: 0;
         &:before {
             content: "\2014"
         }
     }
-    nav#main_nav {
-        background-color: #77FF77;
+}
+
+/*
+ *  3. Content style
+ *  -----------------
+ */
+
+section.content {
+    .section-borders;
+    direction: rtl;
+    display: table;
+    width: 100%;
+    & > * {
+        direction: ltr;
+        margin: auto 2em;
+    }
+}
+
+.article-list {
+    background-color: #77FF77;
+    border-left: 2px solid black;
+    border-top-right-radius: 3em;
+    border-bottom-right-radius: 3em;
+    display: table-cell;
+    vertical-align: top;
+    width: 38.1%;
+}
+
+article.sample {
+    counter-reset: none;
+    display: table-cell;
+    width: 61.8%;
+    p {
+        font-size: 0.9em;
+        line-height: 1.2em;
+        padding: 0 2em;
+        text-indent: 0;
     }
 }
 
 /*
- *  3. Contents style
- *  -----------------
- */
-
-/*
- *  3.1 Articles standard styles
+ *  3.2 Articles standard styles
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
 article {
     font-family: georgia, serif;
-    text-align: justify;
     line-height: 1.5em;
+    margin: 0.5em;
+    text-align: justify;
 
     /* Auto-number the titles */
     counter-reset: part equation;
@@ -257,20 +307,22 @@ article {
     }
 }
 
-/*
- *  3.2 Article sample stye
- *  ~~~~~~~~~~~~~~~~~~~~~~~
- */
+/* Interactive footnotes  */
+div.interactive-footnote {
+    background-color: white;
+    border-left: 1px solid black;
+    font-size: 0.875em;
+    line-height: 1.2em;
+    margin: .5em 0 .5em 1.2em;
+    padding: .2em;
+    position: absolute;
+        right: 0;
+    width: 25%;
+}
 
-article.sample {
-    counter-reset: none;
-    width: 61.8%;
-    p {
-        font-size: 0.9em;
-        line-height: 1.2em;
-        padding: 0 2em;
-        text-indent: 0;
-    }
+/* Article footers */
+article footer{
+    margin: 1em 1em 1.5em;
 }
 
 /*
@@ -278,14 +330,12 @@ article.sample {
  *  ---------------
  */
 
-footer#main_footer {
+footer#main-footer {
+    background-color: #FFFF77;
+    .section-borders;
     small {
-        border-top: 1px solid black;
         display: block;
         font-size: 0.75em;
-        margin: 1em 2em;
-        padding-top: 1em;
-        width: 70%;
         .license {
             display: table;
         }
@@ -296,7 +346,11 @@ footer#main_footer {
         }
         .license-text {
             display: table-cell;
+            vertical-align: top;
         }
+    }
+    & > *{
+        margin: 0.2em 2em;
     }
 }
 

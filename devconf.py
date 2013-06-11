@@ -20,6 +20,7 @@ PLUGIN_PATH = "/home/sterna/virtualenvs/pelican/pelican-plugins"
 PLUGINS = ["assets", "extract_toc", "extract_footnotes", "prettyprint",
            "html5"]
 THEME = "theme"
+PRETTYPRINT = "off"
 
 IGNORE_FILES = ['.#*', '*~', 'TODO']
 

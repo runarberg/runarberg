@@ -9,17 +9,3 @@
               type="text/css" />
     {% endassets %}
 {% endmacro %}
-
-{% macro article_preview(articles, match_cat) %}
-    {% for article in articles if article.category == match_cat %}
-        <article class="article_sample"
-                 id="{{ article.category.slug }}/{{ article.slug }}">
-            {{ post_info.header(article) }}
-            {{ post_info.footer(article) }}
-            <div class="summary">
-                {{ article.summary }}
-                <a href="{{ SITEURL }}/{{ article.url }}" class="read_more">Lesa</a>
-            </div>
-        </article>
-    {% endfor %}
-{% endmacro %}
