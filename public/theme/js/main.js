@@ -18,8 +18,8 @@ var update_active_cat = function () {
 
 var AddHashNav = function (hashmatch, container) {
     var update_active_hash = function () {
-        $('a:regex(href, #)').removeClass('active');
-        $('a[href$="'+ window.location.hash +'"]').addClass('active');
+        $('li:has(a:regex(href, #))').removeClass('active');
+        $('li:has(a[href$="'+ window.location.hash +'"])').addClass('active');
     };
     var change_from_hash = function () {
         update_active_hash();

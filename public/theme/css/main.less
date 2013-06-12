@@ -88,18 +88,20 @@ textarea {
 }
 
 /* ==========================================================================
-   LESS mixins
+   LESS variables and mixins
    ========================================================================== */
 
-.smaller {
-    font-size: .875em;
-    line-height: 1.2em;
-}
+@active-border-line: 2px solid black;
 
 .section-borders {
     border: 2px solid black;
     border-radius: 3em;
     margin: 1em auto;
+}
+
+.smaller {
+    font-size: .875em;
+    line-height: 1.2em;
 }
 
 .super {
@@ -118,6 +120,10 @@ textarea {
  *  1. Basic style
  *  --------------
  */
+
+body.index {
+    background: #CCCCCC;
+}
 
 .main-container {
     margin: 0 0.5em;
@@ -167,10 +173,10 @@ header#main-header {
         a{
             &.active {
                 background-color: white;
-                border-top: 2px solid black;
-                border-right: 2px solid black;
+                border-top: @active-border-line;
+                border-right: @active-border-line;
                 border-bottom: 2px solid white;
-                border-left: 2px solid black;
+                border-left: @active-border-line;
                 border-top-left-radius: 0.75em;
                 border-top-right-radius: 0.75em;
                 font-style: normal;
@@ -187,6 +193,7 @@ header#main-header {
 
 section.content {
     .section-borders;
+    background: white;
     direction: rtl;
     display: table;
     width: 100%;
@@ -198,7 +205,7 @@ section.content {
 
 .article-list {
     background-color: #77FF77;
-    border-left: 2px solid black;
+    border-left: @active-border-line;
     border-top-right-radius: 3em;
     border-bottom-right-radius: 3em;
     display: table-cell;
@@ -211,18 +218,18 @@ section.content {
     li {
         font-size: 1.25em;
         margin-left: -2px;
-    }
-    a {
-        color: black;
-        padding: 0 2em;
+        padding-left: 2em;
         &.active {
             background-color: white;
-            border-top: 2px solid black;
-            border-right: 2px solid black;
-            border-bottom: 2px solid black;
+            border-top: @active-border-line;
+            border-right: @active-border-line;
+            border-bottom: @active-border-line;
             border-top-right-radius: 2em;
             border-bottom-right-radius: 2em;
         }
+    }
+    a {
+        color: black;
     }
 }
 
@@ -365,23 +372,9 @@ article footer{
 
 footer#main-footer {
     background-color: #FFFF77;
+    font-size: 0.75em;
+    text-align: center;
     .section-borders;
-    small {
-        display: block;
-        font-size: 0.75em;
-        .license {
-            display: table;
-        }
-        .license-img {
-            display: table-cell;
-            padding-right: 2px;
-            vertical-align: middle;
-        }
-        .license-text {
-            display: table-cell;
-            vertical-align: top;
-        }
-    }
     & > *{
         margin: 0.2em 2em;
     }
