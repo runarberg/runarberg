@@ -7,14 +7,14 @@ var NewAjaxLink = function (title, href) {
         update_active_cat();
         return false;
     });
-}
+};
 
 var update_active_cat = function () {
     $('header h2 a.active').removeClass('active');
     $('body.index a[href="'+ window.location.origin +
                              window.location.pathname +'"]')
         .addClass('active');
-}
+};
 
 var AddHashNav = function (hashmatch, container) {
     var update_active_hash = function () {
@@ -31,26 +31,29 @@ var AddHashNav = function (hashmatch, container) {
             change_content(container, window.location.hash);
             return false;
         }
+        change_content(container, container + ' > header');
+        return false;
     };
     change_from_hash();
     $(window).on('hashchange', function (e) {
         change_from_hash();
     });
-}
+};
 
 var change_content = function (container, content) {
     $(container + ' >').addClass('hidden');
     $(content).removeClass('hidden');
-}
+};
 
 var load_new_content = function (href) {
     $('div.content-container').load(href + ' section.content', function () {
         setup();
     });
-}
+};
 
 var interactive_footnotes = function () {
-    $('article div.entry-content').after($('<div class="interactive-footnote">'));
+    $('article div.entry-content')
+        .after($('<div class="interactive-footnote">'));
     var $footnote_container = $('div.interactive-footnote');
 
     var footnote_over = function () {
@@ -70,7 +73,7 @@ var interactive_footnotes = function () {
         } else if ( ref_align + (footnote_height/2) > screen_bottom ) {
             $footnote_container.css('top', screen_bottom - footnote_height);
         }
-    }
+    };
     var footnote_off = function () {
         var $a_ref = $(this);
         var hor = $(this).offset().left + $(this).width();
@@ -86,9 +89,9 @@ var interactive_footnotes = function () {
                 hor = e.pageX;
             }
         });
-    }
+    };
     $('a.footnote-reference').hover(footnote_over, footnote_off);
-}
+};
 
 var setup = function () {
     if ( $('body').hasClass('index') ) {
@@ -96,13 +99,15 @@ var setup = function () {
         NewAjaxLink('Pælingar', '/paelingar/');
         NewAjaxLink('Sögur', '/sogur/');
         NewAjaxLink('Önnur ritverk', '/onnur-ritverk/');
-        AddHashNav(/preview$/, 'section.category-content');
+        if ( 'onhashchange' in window ){
+            AddHashNav(/preview$/, 'section.category-content');
+        };
         update_active_cat();
-    }
+    };
     if ( $('a.footnote-reference').length > 0 ) {
         interactive_footnotes();
-    }
-}
+    };
+};
 
 $(document).ready(function () {
     History.Adapter.bind(window, 'statechange', function () {
