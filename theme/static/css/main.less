@@ -191,41 +191,17 @@ header#main-header {
  *  -----------------
  */
 
-section.content {
-    .section-borders;
-    background: white;
-    direction: rtl;
-    display: table;
-    width: 100%;
-    & > * {
-        direction: ltr;
-        margin: auto 2em;
-    }
-}
-
 .article-list {
+    .section-borders;
     background-color: #77FF77;
-    border-left: @active-border-line;
-    border-top-right-radius: 3em;
-    border-bottom-right-radius: 3em;
-    display: table-cell;
-    vertical-align: top;
-    width: 38.1%;
     ul {
         padding-left: 0;
         list-style: none;
     }
     li {
         font-size: 1.25em;
-        margin-left: -2px;
-        padding-left: 2em;
         &.active {
             background-color: white;
-            border-top: @active-border-line;
-            border-right: @active-border-line;
-            border-bottom: @active-border-line;
-            border-top-right-radius: 2em;
-            border-bottom-right-radius: 2em;
         }
     }
     a {
@@ -233,15 +209,52 @@ section.content {
     }
 }
 
-article.sample {
+article.preview {
+    .section-borders;
+    background-color: white;
     counter-reset: none;
-    display: table-cell;
-    width: 61.8%;
     p {
         font-size: 0.9em;
         line-height: 1.2em;
         padding: 0 2em;
         text-indent: 0;
+    }
+}
+
+@media only screen and (min-width: 920px) {
+    section.content {
+        direction: rtl;
+        display: table;
+        width: 100%;
+        & > * {
+            direction: ltr;
+            margin: auto 2em;
+        }
+    }
+
+    .article-list {
+        border-left: @active-border-line;
+        border-top-right-radius: 3em;
+        border-bottom-right-radius: 3em;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        display: table-cell;
+        vertical-align: top;
+        width: 38.1%;
+        li {
+            margin-left: -2px;
+            padding-left: 2em;
+            &.active {
+                border-top: @active-border-line;
+                border-right: @active-border-line;
+                border-bottom: @active-border-line;
+                border-top-right-radius: 2em;
+                border-bottom-right-radius: 2em;
+            }
+        }
+    }
+    article.preview {
+        display: table-cell;
     }
 }
 
