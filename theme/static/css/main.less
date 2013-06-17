@@ -200,70 +200,76 @@ header#main-header {
  *  3. Content style
  *  -----------------
  */
+.index {
+    .content-container {
+        .section-borders;
+    }
 
-.article-list {
-    .section-borders;
-    margin-bottom: -2px;
-    ul {
-        padding-left: 0;
-        list-style: none;
-    }
-    li {
-        .button-inactive;
-        font-size: 1.25em;
-        margin: 0.1em 1em;
-        padding-left: 0.4em;
-        &.active {
-            .button-active;
-            background-color: white;
-        }
-        &:hover {
-            .button-active;
-        }
-    }
-    a {
-        color: black;
-        display: block;
-        text-decoration: none;
-        width: 100%;
-    }
-}
-
-.category-content {
-    .section-borders;
-    background-color: white;
-    article.preview {
-        counter-reset: none;
-        p {
-            font-size: 0.9em;
-            line-height: 1.2em;
-            padding: 0 2em;
-            text-indent: 0;
-        }
-    }
-}
-
-@media only screen and (min-width: 920px) {
-    section.content {
+    .content {
         display: table;
         width: 100%;
-        & > * {
-        }
     }
 
     .article-list {
-        border-right: 0;
-        display: table-cell;
-        vertical-align: top;
-        width: 38.1%;
+        border-bottom: 2px solid black;
+        ul {
+            padding-left: 0;
+            list-style: none;
+        }
         li {
+            .button-inactive;
+            font-size: 1.25em;
+            margin: 0.1em 1em;
+            padding-left: 0.4em;
             &.active {
+                .button-active;
+                background-color: white;
+            }
+            &:hover {
+                .button-active;
+            }
+        }
+        a {
+            color: black;
+            display: block;
+            text-decoration: none;
+            width: 100%;
+        }
+    }
+
+    .category-content {
+        background-color: white;
+        display: table-row;
+        article.preview {
+            counter-reset: none;
+            p {
+                font-size: 0.9em;
+                line-height: 1.2em;
+                padding: 0 2em;
+                text-indent: 0;
             }
         }
     }
-    .category-content {
-        display: table-cell;
-        width: (100% - 38.1%)
+
+    @media only screen and (min-width: 920px) {
+        section.content {
+        }
+
+        .article-list {
+            border-bottom: 0;
+            border-right: 2px solid black;
+            display: table-cell;
+            vertical-align: top;
+            width: 38.1%;
+            li {
+                &.active {
+                }
+            }
+        }
+        .category-content {
+            display: table-cell;
+            width: (100% - 38.1%);
+        }
     }
 }
 

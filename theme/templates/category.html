@@ -5,7 +5,7 @@
 {% block title %}{{ category }}{% endblock %}
 
 {% block contents %}
-    <section class="content category clearfix" id="{{ category.slug }}">
+    <section class="content category" id="{{ category.slug }}">
         <aside class="article-list"><ul>
             {% for article in articles %}
                 <li><a href="#{{ article.slug }}-preview">{{ article.title }}</a></li>
