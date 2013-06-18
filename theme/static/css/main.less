@@ -213,18 +213,23 @@ header#main-header {
  *  3. Content style
  *  -----------------
  */
+
 .index {
     .content-container {
         .section-borders;
     }
 
     .content {
-        display: table;
+        display: flex;
+            display: -moz-flex;
+            display: -webkit-flex;
+            flex-flow: column;
+                -moz-flex-flow: column;
+                -webkit-flex-flow: column;
         width: 100%;
     }
 
     .article-list {
-        border-bottom: 2px solid black;
         ul {
             padding-left: 0;
             list-style: none;
@@ -252,7 +257,7 @@ header#main-header {
 
     .category-content {
         background-color: white;
-        display: table-row;
+        padding: 0.5em;
         article.preview {
             counter-reset: none;
             p {
@@ -265,23 +270,33 @@ header#main-header {
     }
 
     @media only screen and (min-width: 920px) {
-        section.content {
-        }
-
-        .article-list {
-            border-bottom: 0;
-            border-right: 2px solid black;
-            display: table-cell;
-            vertical-align: top;
-            width: 38.1%;
-            li {
-                &.active {
-                }
+        .no-flexbox & {
+            .content {
+                display: table;
+            }
+            .article-list {
+                display: table-cell;
+                width: 38.1%;
+            }
+            .category-content {
+                display: table-cell;
+                width: (100% - 38.1%);
             }
         }
+        .content {
+            flex-flow: row;
+                -moz-flex-flow: row;
+                -webkit-flex-flow: row;
+        }
+        .article-list {
+            flex: 1 2 38.1%;
+                -moz-flex: 1 2 38.1%;
+                -webkit-flex: 1 2 38.1%;
+        }
         .category-content {
-            display: table-cell;
-            width: (100% - 38.1%);
+            flex: 2 1 (100% - 38.1%);
+                -moz-flex: 1 2 (100% - 38.1%);
+                -webkit-flex: 1 2 (100% - 38.1%);
         }
     }
 }
