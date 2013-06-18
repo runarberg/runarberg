@@ -24,6 +24,18 @@ body {
 }
 
 /*
+ * Auto hyphenate articles in the future
+ */
+
+article p {
+    hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        -webkit-hyphens: auto;
+
+}
+
+/*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
@@ -196,6 +208,7 @@ header#main-header {
     }
 }
 
+
 /*
  *  3. Content style
  *  -----------------
@@ -307,11 +320,6 @@ article {
     }
 
     p {
-        hyphens: auto;
-            -moz-hyphens: auto;
-            -ms-hyphens: auto;
-            -o-hyphens: auto;
-            -webkit-hyphens: auto;
         margin: 0;
         text-indent: 1.75em;
     }
