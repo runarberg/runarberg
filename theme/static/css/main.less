@@ -104,15 +104,22 @@ textarea {
    ========================================================================== */
 
 @active-border-line: 2px solid black;
+@linkcolor: #0000AA;
 @page-margin-top: 2em;
 @page-margin-bottom: 2em;
 
 .button-active {
     border: 1px solid black;
+    a:hover {
+        border-bottom: 0;
+    }
 }
 
 .button-inactive {
     border: 1px dashed gray;
+    a:hover {
+        border-bottom: 0;
+    }
 }
 
 .section-borders {
@@ -155,11 +162,11 @@ body.index {
 
 a {
     &:link, &:visited {
-        color: blue;
+        color: @linkcolor;
         text-decoration: none;
     }
     &:hover {
-        text-decoration: underline;
+        border-bottom: 1px dashed;
     }
     h1 &, h2 &, h3 & {
         color: inherit !important;
