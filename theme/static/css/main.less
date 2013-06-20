@@ -139,6 +139,19 @@ textarea {
     vertical-align: baseline;
 }
 
+.subscript {
+    font-size: 0.75em;
+    line-height: 0;
+    vertical-align: baseline;
+    position: relative;
+        bottom: -0.5em;
+}
+
+.normal {
+    font-size: 1em;
+    position: static;
+}
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -149,7 +162,6 @@ textarea {
  */
 
 body.index {
-    background: #CCCCCC;
 }
 
 .main-container {
@@ -161,15 +173,24 @@ body.index {
 }
 
 a {
-    &:link, &:visited {
-        color: @linkcolor;
-        text-decoration: none;
+    color: inherit;
+    text-decoration: none;
+    &:after {
+        .super;
+        content: "\25B7";
     }
     &:hover {
-        color: (#FF66FF - @linkcolor);
+        &:after {
+            content: "\25B6";
+        }
     }
     h1 &, h2 &, h3 & {
-        color: inherit !important;
+        &:after {
+            content: none;
+        }
+        &:hover:after {
+            content: none;
+        }
     }
 }
 
@@ -198,18 +219,11 @@ header#main-header {
             content: "\2014";
         }
         a{
-            padding: 0 0.13em;
             text-wrap: none;
             white-space: nowrap;
-            &.active {
-                .button-active;
-                background-color: white;
-                margin: -1px;
+            &:after {
             }
-            &:hover {
-                .button-active;
-                margin: -1px;
-                text-decoration: none;
+            &:hover:after {
             }
         }
     }
@@ -225,7 +239,6 @@ header#main-header {
     .content-container {
         .section-borders;
     }
-
     .content {
         display: flex;
             display: -moz-flex;
@@ -242,16 +255,13 @@ header#main-header {
             list-style: none;
         }
         li {
-            .button-inactive;
             font-size: 1.25em;
             margin: 0.1em 1em;
             padding-left: 0.4em;
             &.active {
-                .button-active;
                 background-color: white;
             }
             &:hover {
-                .button-active;
             }
         }
         a {
@@ -365,6 +375,9 @@ article {
         .super;
         color: inherit;
         opacity: 0.7;
+        &:after, &:hover:after {
+            content: none;
+        }
     }
 
     /* Definition lists */
@@ -435,6 +448,14 @@ footer#main-footer {
     text-align: center;
     & > *{
         margin: 0.2em 2em;
+    }
+    a.license-img {
+        &:after {
+            content: none;
+        }
+        &:hover:after {
+            content: none;
+        }
     }
 }
 
