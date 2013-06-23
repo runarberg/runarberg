@@ -111,29 +111,6 @@ textarea {
    LESS variables and mixins
    ========================================================================== */
 
-@active-border-line: 2px solid black;
-@linkcolor: #0000AA;
-@page-margin-top: 2em;
-@page-margin-bottom: 2em;
-
-.button-active {
-    border: 1px solid black;
-    a:hover {
-        border-bottom: 0;
-    }
-}
-
-.button-inactive {
-    border: 1px dashed gray;
-    a:hover {
-        border-bottom: 0;
-    }
-}
-
-.section-borders {
-    border: 2px solid black;
-}
-
 .smaller {
     font-size: .875em;
     line-height: 1.2em;
@@ -221,13 +198,12 @@ article {
 header#main-header {
     h1 {
         margin: 0.7em 1em 0;
-        font-family: 'Almendra', serif;
-        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+        font-weight: 100;
     }
     h2 {
-        font-family: 'Almendra', serif;
+        font-family: 'Playfare Display', serif;
         font-style: italic;
-        font-weight: bold;
         padding-left: 3em;
         text-indent: -1em;
         margin-top: 0;
@@ -333,10 +309,24 @@ header#main-header {
  */
 
 article {
-    font-family: georgia, serif;
+    font-family: "PT Sans", sans-serif;
     line-height: 1.5em;
     margin: 0.5em;
     text-align: justify;
+
+    h1 {
+        font-family: "Playfair Display", georgia, serif;
+    }
+
+    h2 {
+        font-family: "PT Serif", serif;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: normal;
+    }
 
     /* Auto-number the titles */
     counter-reset: part equation;
@@ -451,19 +441,10 @@ article footer{
  */
 
 footer#main-footer {
-    margin: -2px auto @page-margin-bottom;
     font-size: 0.75em;
     text-align: center;
     & > *{
         margin: 0.2em 2em;
-    }
-    a.license-img {
-        &:after {
-            content: none;
-        }
-        &:hover:after {
-            content: none;
-        }
     }
 }
 
