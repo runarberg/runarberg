@@ -1,12 +1,10 @@
 {% extends "base.html" %}
 
-{% import "page_info.html" as page_info with context %}
 {% from "snippets/macros.html" import add_less %}
 
 {% block title %}{{ article.title }}{% endblock %}
 {% block stylesheets %}
     {{ super() }}
-    {{ add_less("sogur") }}
     {{ add_less("occupy") }}
 {% endblock %}
 
@@ -24,8 +22,6 @@
         </div>
         <footer>
             {{ article.footnotes }}
-            <small>Skrifað {{ article.locale_date }}<br />
-            Eftir {{ article.author }}</small>
         </footer>
     </article>
 {% endblock %}

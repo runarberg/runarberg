@@ -24,6 +24,14 @@ body {
 }
 
 /*
+ * Remove ugly unessasery underlines
+ */
+
+a {
+    text-decoration: none;
+}
+
+/*
  * Auto hyphenate articles in the future
  */
 
@@ -161,7 +169,11 @@ textarea {
  *  --------------
  */
 
-body.index {
+h1, h2, h3 {
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
 }
 
 .main-container {
@@ -172,24 +184,26 @@ body.index {
     }
 }
 
-a {
-    color: inherit;
-    text-decoration: none;
-    &:after {
-        .super;
-        content: "\25B7";
-    }
-    &:hover {
+article {
+    a {
         &:after {
-            content: "\25B6";
+            .super;
+            content: "\25B7";
+        }
+        &:hover {
+            &:after {
+                content: "\25B6";
+            }
         }
     }
-    h1 &, h2 &, h3 & {
-        &:after {
-            content: none;
-        }
-        &:hover:after {
-            content: none;
+    h1, h2, h3 {
+        a {
+            &:after {
+                content: none;
+            }
+            &:hover:after {
+                content: none;
+            }
         }
     }
 }
@@ -205,13 +219,15 @@ a {
  */
 
 header#main-header {
-    .section-borders;
-    margin: @page-margin-top auto -2px;
     h1 {
         margin: 0.7em 1em 0;
+        font-family: 'Almendra', serif;
+        font-weight: bold;
     }
     h2 {
-        font-size: 1.5em;
+        font-family: 'Almendra', serif;
+        font-style: italic;
+        font-weight: bold;
         padding-left: 3em;
         text-indent: -1em;
         margin-top: 0;
@@ -221,10 +237,6 @@ header#main-header {
         a{
             text-wrap: none;
             white-space: nowrap;
-            &:after {
-            }
-            &:hover:after {
-            }
         }
     }
 }
@@ -237,7 +249,6 @@ header#main-header {
 
 .index {
     .content-container {
-        .section-borders;
     }
     .content {
         display: flex;
@@ -258,11 +269,6 @@ header#main-header {
             font-size: 1.25em;
             margin: 0.1em 1em;
             padding-left: 0.4em;
-            &.active {
-                background-color: white;
-            }
-            &:hover {
-            }
         }
         a {
             color: black;
@@ -280,9 +286,12 @@ header#main-header {
             p {
                 font-size: 0.9em;
                 line-height: 1.2em;
-                padding: 0 2em;
+                margin: auto 2em;
                 text-indent: 0;
             }
+        }
+        .read-more {
+            margin: 1em 1em 1.5em;
         }
     }
 
@@ -442,7 +451,6 @@ article footer{
  */
 
 footer#main-footer {
-    .section-borders;
     margin: -2px auto @page-margin-bottom;
     font-size: 0.75em;
     text-align: center;
