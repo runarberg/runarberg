@@ -26,7 +26,7 @@ var floating_toc = function () {
             }
         }
     });
-}
+};
 
 var interactive_toc = function () {
     // Make finished sections have the class of 'finished' in the ToC
@@ -61,17 +61,16 @@ var interactive_toc = function () {
                 $(this).removeClass('finished active');
             }
         });
-    }
+    };
 
     marked_finished();
     
     $(window).scroll(function (e) {
         marked_finished();
     });
-}
+};
 
 $(document).ready(function () {
     floating_toc();
     interactive_toc();
-    interactive_footnotes();
 });
