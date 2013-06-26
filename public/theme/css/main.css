@@ -25,6 +25,10 @@ body {
 a {
   text-decoration: none;
 }
+abbr[title] {
+  border-bottom: 0;
+  cursor: help;
+}
 /*
  * Auto hyphenate articles in the future
  */
@@ -166,10 +170,12 @@ article h3 a:hover:after {
 header#main-header h1 {
   margin: 0.7em 1em 0;
   font-family: 'Lato', sans-serif;
+  font-size: 3em;
   font-weight: 100;
 }
 header#main-header h2 {
   font-family: 'Playfare Display', serif;
+  font-size: 2em;
   font-style: italic;
   padding-left: 3em;
   text-indent: -1em;
@@ -181,6 +187,10 @@ header#main-header h2:before {
 header#main-header h2 a {
   text-wrap: none;
   white-space: nowrap;
+}
+header#main-header h2 a:hover,
+header#main-header h2 a.active {
+  border-bottom: solid black 0.1em;
 }
 /*
  *  3. Content style
