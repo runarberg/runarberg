@@ -1,5 +1,6 @@
-Bandaríkin á tímum Occupy
-=========================
+===========================
+ Bandaríkin á tímum Occupy
+===========================
 
 :author: Rúnar Berg Baugsson Sigríðarson
 :date: 2013-04-25 01:44:22
@@ -33,8 +34,9 @@ Bandaríkin á tímum Occupy
       2.4  Occupy Boise
     3  Endirinn
       3.1  Occupy Seattle
-      3.2  Occupy Portland & San Francisco
-      3.3  Occupy the South West
+      3.2  Occupy Portland
+      3.3  Occupy San Francisco
+      3.4  Occupy the South West
     4  Niðurstöður
     5  Neðanmálsgreinar
 
@@ -43,7 +45,7 @@ Bandaríkin á tímum Occupy
    | Í sex mánuði ferðaðist ég um Ameríku meðan Ameríka hristist.
    
 Upphafið
---------
+========
 
 Hópur anarkista hélt útifund við Zuccotti park nálægt Wall St. Manhattan, allir
 velkomnir. Sósíalistar, marxistar, nýhílistar, unglingar, heimilisleysingjar,
@@ -73,7 +75,7 @@ stjórni öllu. Saman taka þau fjármálaheiminn af auðvaldinu, saman ná þau
 Street á sitt vald, saman tökum við Wall Street.
 
 Occupy Worcester
-~~~~~~~~~~~~~~~~
+----------------
 
 Ég var í Worcester, Massachusetts, þegar ég heyrði fréttirnar. Ung stúlka sem ég
 gisti hjá, Couch-sörfaði, Katrina að nafni, tilkynnti mér og tveim meðleigendum
@@ -137,7 +139,7 @@ Engar mótmælendabúðir í líkindum við þær í Zuccotti Park voru reistar 
 Worcester. Nágrannaborgin Boston varð þó landsfræg fyrir sínar.
 
 Occupy Boston
-~~~~~~~~~~~~~
+-------------
 
 Occupy Wall Street var ekki vikugamalt þegar ég var í Boston og Occupy Boston
 átti ekki eftir að byrja fyrr en ég var komin úr borginni og í fjallgöngu í New
@@ -179,7 +181,7 @@ ago.“ „**Aliza:** *A demonstration to protest unnessasery police brutality t
 at 2 pm. Show up in soliderity with those arrested last friday* – 3 hours ago.“
 
 Occupy Canada
-~~~~~~~~~~~~~
+-------------
 
 Í Kanada kynntist ég fleiri róttæklingum. Ég var hýstur af aðgerðasinnanum Roz í
 Montréal. Hún vann með fórnarlömbum nauðgana og barðist fyrir réttindum
@@ -219,10 +221,10 @@ kanadísku borganna var merkt: „*Occupy Montréal/Toronto/Windsor: October 15*
 Mið-vesturríkjanna.
 
 Lífið í mótmælum
-----------------
+================
 
 Occupy Detroit
-~~~~~~~~~~~~~~
+--------------
 
 Í Detroit náði aldan mér. Seinasta daginn minn í Detroit var mótmælaganga
 sem markaði upphaf götutökunnar í Detroit.
@@ -259,7 +261,7 @@ verða kalt þarna í mið-vestur ríkjum Bandaríkjanna og ég þurfti að drí
 yfir til hinnar mildu vesturstrandar, lífið á vegum úti beið mín.
 
 Occupy Ann Arbor
-~~~~~~~~~~~~~~~~
+----------------
 
 En ég fór ekki langt. Aðeins til nágrannaborgar Detroit, Ann Arbor, þar sem
 ætlunin var að stoppa fyrir sunnudags-dögurð. Í leit að slíkum sá ég eina
@@ -346,7 +348,7 @@ beiti kúgandi aðgerðum án þess að það þyrfti að benda mér á það í
 skipti.
 
 Occupy Together
-~~~~~~~~~~~~~~~
+---------------
 
 Sá sem kynnir sér að einhverju marki aðgerðarsinna og pólitíska rótttæklinga í
 Ameríku er fljótur að benda á að orðið *anarkismi*, sem er svo ljóslifandi í
@@ -392,7 +394,7 @@ reglulegar vinnustofur þar sem þátttakendur lærðu af hvorum öðrum
 m.a. hvernig mætti bæta sig í að fylgja fyrrnefndum viðmiðum.
 
 Occupy Boise
-~~~~~~~~~~~~
+------------
 
 .. Hér verður farið í það að skrifa um hvernig hreyfingin var fullkomin, það
    er skrifa um Boise, eins og model-occupy, enda er allt down-hill from here
@@ -426,16 +428,15 @@ Margt hafði áunnist á þessum tveim mánuðum frá upphafinu í New York,
 mótmælendur vissu betur hvað virkaði, og hvað virkaði ekki. Við vissum betur
 hvaða framkoma skilaði hvernig viðbrögðum, hvaða aðgerðir skiluðu hvaða
 niðurstöðum og hvaða formgerð skilaði hvaða vinnubrögðum. Í Boise var þessum
-upplýsingum vel dreift, bæði í formi áráðurs frá vel útbúnu upplýsingatjaldi,
-sem og með reglulegum vinnustofum. Ég man að ég sótti vinnustofur um allt frá
-því hvernig ætti að lágmarka kúgandi framkomu (kölluð *„Creating Caring
-Community“* af occupy-liðum, í stað hins hefðbundna heitis:
-*„Anti-oppression“*), hvernig væri best að stjórna allsherjarþingi, hvernig
-væri best að kenna fólki hvernig ætti að stjórna allsherjarþingi, hvernig væri
-best að skipuleggja beinar aðgerðir, o.s.frv. Og það virtist virka. Vandamálin
-sem ég hafði séð í Ann Arbor virtust ekki vera til staðar þarna, eða allavega
-voru þau titlingaskýtur í samanburði. Stéttaskiptingin, valdafíknin og
-fordómarnir sáust varla.
+upplýsingum vel dreift, bæði í formi áróðurs frá vel útbúnu upplýsingatjaldi,
+sem og með reglulegum vinnustofum. Ég man að ég sótti vinnustofur um allt;
+allt frá því hvernig ætti að lágmarka kúgandi framkomu\ [#anti-oppression]_,
+góðar leiðir til að stjórna allsherjarþingi, góðar leiðir til að kenna fólki
+hvernig ætti að stjórna allsherjarþingi, hvernig væri best að skipuleggja
+beinar aðgerðir, o.s.frv. Og það virtist virka. Vandamálin sem ég hafði séð í
+Ann Arbor virtust ekki vera til staðar þarna, eða allavega voru þau
+titlingaskýtur í samanburði. Stéttaskiptingin, valdafíknin og fordómarnir
+sáust varla.
 
 Kannski var það öll vinnan sem hafði verið lögð í skipulagninguna sem gerði
 Boise svona vandamálalítið í samanburði, kannski var það upplýsingaflæðið,
@@ -458,7 +459,7 @@ saman, og skilið eftir vandamálin sem kapítalískt samfélag þröngvar á ok
 og haft gaman af því í leiðinni.
 
 Endirinn
---------
+========
 
 .. Farið ofaní hvers vegna þetta gekk ekki, hvaða þættir öllu falli
    hreyfingarinnar, spunnið ofaní hvernig hún lognaðist útaf hægt og
@@ -474,70 +475,108 @@ tjaldbúðirnar yrðu lifandi miðstöð byltingarinnar um ókomna tíð. Við v
 samt inn í okkur að svo yrði ekki.
 
 Occupy Seattle
-~~~~~~~~~~~~~~
+--------------
 
 .. Vandræði samfélagsins, geðveiki götunnar gerir allar beinar aðerðir mjög
    erfiðar
 
 Það var skrýtin stemningin að koma úr Occupy Boise, þar sem allt gekk svo vel
-upp, í Occupy Seattle, með öll sín vandamál. Occupy Boise hafði nýtt sér það
-hegðunarmynstur yfirvalda, að tjaldbúðir sem rísa á svæði sem tilheyrir
-fylkinu, er frekar látið í friði frá lögreglunni, en t.d. svæði sem tilheyrir
-borginni. Með því að tjalda á landi fylkisins fylgdi því ákveðið sjálfstæði
-sem Occupy Seattle hafði ekki.
+upp, í Occupy Seattle, með öll sín vandamál.
 
-Tjaldbúðirnar í Seattle risu á skólalóð nálægt miðborginni, með samþykki,
-stjórnar skólans. Það samþykki var ekki jafn frelsandi og halda mætti því það
-gerði hreyfinguna háða yfirvaldi sem náði handan. Fíkniefnavandamál
-borgarinnar samanþjöppuðust í kringum mótmælin og samblönduðust
-þeim. Sjúkrabíllinn mætti til tjaldbúðanna a.m.k. einu sinni á dag því að
-einhver ábúandanna hafði tekið of stóran skammt. Auðvitað leið ekki á löngu
-fyrr en skólayfirvöld urðu þreytt á gangi mála og snérust gegn hreyfingunni.
+Það fyrsta sem ég tók eftir í Seattle var hvað mótmælendur voru þreyttir, það
+var eins og þau orkuðu ekki í gestrisni. Á meðan Occupy Boise hafði tekið
+brosandi á móti mér, boðið mér *Food, not Bombs*, sagt brandara og boðið mér á
+næstu æfingu í beinum aðgerðum, þá var eins og Seattle höfðu ekki pláss fyrir
+mig í sínum búðum.
 
-Þessi vandamál voru ekki hreyfingunni að kenna. Þó var hún berskjölduð fyrir
-þeim. Fjöldi heimillislausra í Seattle er geysimikill, stór hluti þeirra á við
-fíkniefnavandamál að stríða. Borgaryfirvöld gera lítið sem ekkert í málinu,
-nema kannski að handataka þessi fornarlömb fíknarinnar og glæpavæða sjúkdóminn
-þeirra. Occupy-hreyfingin veitti þessu fólki skjól og bauð þeim upp á mat, gaf
-þeim veraldleg gæði sem þau áður þurftu að betla eða stela fyrir. Fólk er ekki
-vant að breyta hátterni sínu yfir nóttu, svo þegar í tjalbúðirnar var komið,
-var þar stór hluti, inn á milli aðgerðarsinna, sem hélt áfram sínum betlandi
-og stelandi lífstíl.
+Ástæðan var sú að vandamál götunnar höfðu færst yfir í vandamál
+tjaldbúðanna. Fýklar sem engin úrræði fá af hendi borgaryfirvalda fengu þarna
+mat, skjól og næði. Auðvitað eru þessir þrír hlutir ekki nóg til að lækna fólk
+af þeim félagslegu hömlum sem fíknin og götulífið hefur sett þau í, svo
+sjúkrabíllinn var tíður gestur í búðunum, auk þess sem fólk varð sífellt fyrir
+barðinu á þjófnaði og óþægilegu áreiti. Auðvitað leið ekki á löngu fyrr en
+skólayfirvöld, sem lánuðu hreyfingunni lóð fyrir búðirnar, urðu þreytt á gangi
+mála og snérust gegn hreyfingunni og hótuðu að loka búðunum.
 
-Að búa við hlið þessara vandamála er eitt og séð nógu erfitt, og eflaust hafa
-margir aðgerðarsinnar fengið nóg við það eitt. Fjölmiðlar, og eflaust hinn
-meðal-borgarbúi, sáu þetta ekki sem erfiðleika, eða vandamál, heldur sem
+Fjölmiðlar, og eflaust hinn meðal-borgarbúi, sáu þetta ekki sem erfiðleika,
+eða vandamál sem þyrfti að leysa með því að hjálpa þessu fólki, heldur sem
 skömm. *Occupy? — Unglingar, götustrákar, fífl, hirðuleysingjar sem koma
 saman, rusla til, dópa, drekka, þykjast meiga allt, og þykjast hafa einhvern
-málstað. Einhverja ástæðu.* **Svei!** Órökstuddar lygasögur og rógburður
+málstað. Einhverja ástæðu.* **Svei þeim!** Órökstuddar lygasögur og rógburður
 birtist í „virtum“ fjölmiðlum sem greindu frá þessum mótmælum. Umræðuefnið var
-oftar en ekki rusl, rottugangur, fíkniefnamisnotkun og annað slíkt. Í Seattle
-hefur þetta allt verið vandamál frá því á sjötta áratug seinustu aldar, og
-þurftu borgarbúar aðeins að líta út fyrir bílrúðuna sína til að sjá þetta um
-allar götur Seattle-borgar. Occupy-mótmælin fengu þó skömmina fyrir þetta. 
+oftar en ekki rusl, rottugangur, fíkniefnamisnotkun og annað slíkt, allt byggt
+á órökstuddum ásökunum.
 
-Occupy Portland & San Francisco
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Að búa með öllum þessum vandamálum götunnar, og fá skömm fyrir það að reyna að
+hjálpa fórnarlömbum þeirra er ekki skemmtileg lífsreynsla, auðvitað verður
+fólk þreytt á þessu til lengdar, og auðvitað missa mótmælin mátt sinn ef þau
+snúast frekar um að þrauka í þessum aðstæðum, fremur en að beina máttum sínum
+að kerfinu sem skapar þær. Því miður átti ég ekki góðar minningar þegar ég
+yfirgaf Seattle fyrir Portland. En Portland voru þekkt fyrir að vera með
+einhverjum stærstu, og vel hepnuðustu tjalbúðum occupy-öldunnar.
+
+Occupy Portland
+---------------
 
 .. Aðgerðir lögreglunnar. Kannski sameina San Francisco við þennan kafla
 
-Nóttina sem ég kom til Seattle voru fáir mótmælendur í tjaldbúðunum, þorri
-þeirra hafði farið til nágrannaborgarinnar Portland að hjálpa til við að verja
-búðirnar þar frá yfirvofandi árás lögreglunnar. Morguninn eftir fékk ég að
-heyra árangurinn í tvennu lagi:
+Nóttina sem ég kom til Seattle voru allir að tala um hótanir yfirvalda í garð
+mótmælenda í Occupy Portland. Loka átti þessum tjaldbúðum sem staðið höfðu í
+yfir rúman mánuð, og voru fræg um öll Bandaríkin fyrir stærð sína og
+velgengni. Stór hluti mótmælanda hafði lagt leið sína frá Seattle og öðrum
+nágrannaborgum Portlands til að aðstoða við að verja tjaldbúðirnar þeirra gegn
+yfirvofandi árás lögreglunnar.
 
+Morguninn eftir fékk ég að heyra árangurinn í tvennu lagi:
+
+    Þetta var ýkt flott, við vorum svo mörg. Við stóðum gegn lögreglunni,
+    hlupum í átt til hennar og hún flúði. Lét okkur alveg vera eftir það. Bara
+    einn var handtekinn fyrir að kasta flugelda að löggunum. Tvær löggur
+    særðust en enginn mótmælandi meiddist.
+
+    Ég reyndi að segja öllum að þetta væri bara byrjunin. Þegar allir voru
+    farnir kom löggan aftur og rýmdi svæðið svo auðveldlega. Þetta var svo
+    auðvelt fyrir hana. Við vorum svo fá og þreytt og gátum ekkert gert.
+
+Á sama tíma og við vorum búin að vera að læra af mistökum okkar, lærðum betur
+hvernig við gætum varið okkur fyrir yfirvöldum, hvernig við gætum haldið þessu
+áfram, þá var lögreglan líka að læra af sínum mistökum. Í Portland voru
+aðgerðirnar hnitmiðaðar\ [#adgerdir-loggu]_, og þær áttu bara eftir versna.
+
+Nokkrum dögum síðar, meðan við horfðum á heimildarmynd um óeyrðirnar í kringum
+rifin á *ungdomshuset*, gekk einn mótmælandi göflunum, þar sem hann öskraði að
+*jarðýtur byðu við tjaldbúðirnar í New York* (þar sem þetta allt byrjaði),
+öskraði að við þyrftum að *hjálpa bræðrum okkar og systrum á
+austurströndinni*, *ekki leifa þessum fasistum að lúmskra á þeim*, *við yrðum
+að gera eitthvað*. Klukkan var að ganga eitt að nóttu til, svo við fórum
+frekar að sofa. Morgunin eftir, hélt ég yfir til Portland að sjá hvernig
+Occupy yrði eftir hinar eiginlega götutökur. Þar sá ég fréttirnar, löggan
+hafði vissulega mætt með jarðýtur og rýmt upprunalegu, og lang-stærstu,
+tjalbúðir mótmælanna. Jarðað móttökubúðir, vinnustofur, listasmiðjur og
+heilt bókasafn við jörðu. Hvað yrði nú að mótmælunum, þegar höfuð og herðar
+þeirra hafði verið sópað burt svona illilega? Nú þegar tveimur stærstu búðum
+öldunnar hafði verið lokað með ofbeldi af hálfu yfirvalda?
+
+Occupy San Francisco
+--------------------
+
+.. Handtökurnar Occupy eftir handtökur, persónulegar tilfinningar, pólitískt
+   andóf, óeyrðirnar í Portland, janúar í San Francisco.
+
+Það var þegar búið að loka tjaldbúðunum í San Fransiskó þegar ég kom þangað.
+   
 Occupy the South West
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 .. Minnkandi þátttaka mótmælanda, minni bitkraftur. Seinasti kaflinn.
 
 Niðurstöður
------------
+===========
 
 .. class:: footnotes topic
 
 Neðanmálsgreinar
-----------------
+================
 
 .. [#ny_storf] Umræðan um þessar pípur minnti mig á
    Kárahnjúkavirkjun. Hrikalegar rökleysur, vítavert veruleikarof og
@@ -637,5 +676,15 @@ Neðanmálsgreinar
    flogið frá mótmælendabúðunum í New York til að hjálpa Boise að skipuleggja
    sínar. Hann hélt ótal vinnustofur til að deila reynslu sinni með okkur
    hinum.
+
+.. [#anti-oppression] Kölluð *„Creating Caring Community“* af occupy-liðum, í
+   stað hins hefðbundna heitis *„anti-oppression“*.
+
+.. [#adgerdir-loggu] Fyrst að tilkynna ofbeldi (koma meirihlutanum burt), næst
+   að hóta ofbeldi (koma enn fleirum burt), ráðast svo til aðgerða gegn þeim
+   fáu sem eftir verða að nóttu til (þreyta þá sem munu veita mesta
+   mótspyrnu), og tæma að lokum svæðið snemma næsta morgun (á meðan þau
+   hörðustu eru í haldi, eða hvíla sig eftir átök næturinnar, og áður en þau
+   sem forðuðust ofbeldið mæta aftur daginn eftir).
    
 .. |th| replace:: :sup:`th`
