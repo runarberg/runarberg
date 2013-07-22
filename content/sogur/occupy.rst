@@ -7,7 +7,6 @@
 :slug: bandarikin-a-timum-occupy
 :lang: is
 :category: Sögur
-:group: Sögur
 :template: occupy
 
 :summary: Veturinn 2012–2013 var ég á puttaferðalagi um Bandaríkin, markmiðið
@@ -532,11 +531,14 @@ Morguninn eftir fékk ég að heyra árangurinn í tvennu lagi:
     Þetta var ýkt flott, við vorum svo mörg. Við stóðum gegn lögreglunni,
     hlupum í átt til hennar og hún flúði. Lét okkur alveg vera eftir það. Bara
     einn var handtekinn fyrir að kasta flugelda að löggunum. Tvær löggur
-    særðust en enginn mótmælandi meiddist.
+    særðust en enginn mótmælandi meiddist,
+
+heyrði ég frá fyrsta hollinu, en það seinna var ekki jafn glatt.
 
     Ég reyndi að segja öllum að þetta væri bara byrjunin. Þegar allir voru
     farnir kom löggan aftur og rýmdi svæðið svo auðveldlega. Þetta var svo
-    auðvelt fyrir hana. Við vorum svo fá og þreytt og gátum ekkert gert.
+    auðvelt fyrir hana. Við vorum svo fá og þreytt og gátum ekkert
+    gert. *Occupy Portland* er búið.
 
 Á sama tíma og við vorum búin að vera að læra af mistökum okkar, lærðum betur
 hvernig við gætum varið okkur fyrir yfirvöldum, hvernig við gætum haldið þessu
@@ -544,18 +546,18 @@ hvernig við gætum varið okkur fyrir yfirvöldum, hvernig við gætum haldið 
 aðgerðirnar hnitmiðaðar\ [#adgerdir-loggu]_, og þær áttu bara eftir versna.
 
 Nokkrum dögum síðar, meðan við horfðum á heimildarmynd um óeyrðirnar í kringum
-rifin á *ungdomshuset*, gekk einn mótmælandi göflunum, þar sem hann öskraði að
-*jarðýtur byðu við tjaldbúðirnar í New York* (þar sem þetta allt byrjaði),
-öskraði að við þyrftum að *hjálpa bræðrum okkar og systrum á
-austurströndinni*, *ekki leifa þessum fasistum að lúmskra á þeim*, *við yrðum
-að gera eitthvað*. Klukkan var að ganga eitt að nóttu til, svo við fórum
-frekar að sofa. Morgunin eftir, hélt ég yfir til Portland að sjá hvernig
-Occupy yrði eftir hinar eiginlega götutökur. Þar sá ég fréttirnar, löggan
-hafði vissulega mætt með jarðýtur og rýmt upprunalegu, og lang-stærstu,
-tjalbúðir mótmælanna. Jarðað móttökubúðir, vinnustofur, listasmiðjur og
-heilt bókasafn við jörðu. Hvað yrði nú að mótmælunum, þegar höfuð og herðar
-þeirra hafði verið sópað burt svona illilega? Nú þegar tveimur stærstu búðum
-öldunnar hafði verið lokað með ofbeldi af hálfu yfirvalda?
+rifin á *ungdomshuset*, gekk einn mótmælandi göflunum. „Jarðýtur bíða við
+tjaldbúðirnar í New York,“ hljóp hann um og öskraði, „Við þurfum að hjálpa
+bræðrum okkar og systrum á austurströndinni.“ „Ekki leifa þessum fasistum að
+lúmskra á þeim,“ hélt hann áfram. „Við verðum að gera eitthvað!“ Klukkan var
+að ganga eitt að nóttu til, svo við fórum frekar að sofa.
+
+Morgunin eftir, heyrði ég fréttirnar, löggan hafði vissulega mætt með jarðýtur
+og rýmt upprunalegu, og lang-stærstu, tjalbúðir mótmælanna. Jarðað
+móttökubúðir, vinnustofur, listasmiðjur og heilt bókasafn við jörðu. Hvað yrði
+nú að mótmælunum þegar tveimur stærstu búðum öldunnar hafði verið lokað með
+þessum hætti, þegar höfuð og herðar þeirra hafði verið sópað burtu svona
+illilega? Á næstu vikum átti ég eftir að komast að því.
 
 Occupy San Francisco
 --------------------
@@ -563,8 +565,67 @@ Occupy San Francisco
 .. Handtökurnar Occupy eftir handtökur, persónulegar tilfinningar, pólitískt
    andóf, óeyrðirnar í Portland, janúar í San Francisco.
 
-Það var þegar búið að loka tjaldbúðunum í San Fransiskó þegar ég kom þangað.
-   
+Tjaldbúðirnar í San Fransiskó voru staðsettar á torgi sem borgaryfirvöld kalla
+Justin Herman Plaza, en mótmælendur kölluðu Bradley Manning Plaza, í höfuðið á
+uppljóstrarunum fræga sem sýndi heiminum hvernig Bandaríkjamenn fara með
+almenna borgara í stríðunum sínum, og sætir nú pyntingum frá yfirvöldum fyrir
+þær sakir. Þær tjaldbúðir sættu sömu örlögum og búðirnar í Portland og New
+York, og voru þær horfnar þegar ég kom í borgina. Harðkjarni mótmælenda héldu
+þá sólarhrings-viðveru fyrir framan seðlabanka borgarinnar.
+
+„Það voru sett ný lög sem banna fólki að sitja eða liggja á götunni milli 7:00
+og 22:00. Svo við verðum að bíða þangað til klukkan tíu, svo fara sumir að
+sofa hérna fyrir framan anddyrið,“ var svarið sem ég fékk þegar ég spurði um
+hvernig nóttin gengi fyrir sig. „Við þurfum líka að passa að halda
+gangstéttinni opinni, þannig að ekki sofa alveg við grindverkið,“ sagði hún og
+benti á járngrindur sem löggan hafði sett umhverfis innganginn að
+seðlabankanum.
+
+Þannig gisti ég fyrstu nóttina mína í San Fransiskó, ofan á nokkrum útflöttum
+pappakössum og í svefnpoka undir berum himni (ef himinn má kalla í miðborg San
+Fransiskó), berskjaldaður stöðugu fyrir borgaráreiti. Þrátt fyrir það tókst
+mér að dauðrotast þessa nótt. Fimm tímum síðar vaknaði ég við það að vera
+handtekinn, ásamt 55 öðrum mótmælendum, gefið að sök að stunda ólöglegt
+aðsetur (*illegal lodging*), hvað sem það nú þýðir.
+
+Lögregluofbeldi og óeðlileg réttaríhlutun hafði verið svarið sem réttarríkið
+gaf þessum mótmælum alveg frá byrjun. Hluti af frægð þeirra má rekja til þess
+að með fyrstu mótmælagöngum sem farnar voru í New York enduðu með því að allir
+þátttakendur voru handsamaðir meðan þau sátu friðsöm á Brooklyn-brúnni. Í
+október (meðan ég var í Chicago) var líka frægt atvik þegar tugir
+lögregluumdæma beitti táragasi, gúmmíkúlum, og öðrum banvænum vopnum gegn
+óafvitandi mótmælendum í Oakland (hinum meginn Flóabrúnnar við San Fransiskó),
+einn mótmælandi slasaðist lífshættulega þegar hann varð fyrir kúlum
+lögreglunnar. Skrítnustu lög voru ýmist grafin upp eða samin til að geta
+stöðvað mótmælin, sérlög sem banna tjöld á landi fylkisins, lög sem banna
+fólki að liggja á almannafæri og ýmislegt í þeim dúr. Mótmælendur báru fyrir
+sér stjórnarskrá-bundinn rétt sinn til félagahalds og samkomum, en á þau rök
+var ekki hlustað, og mótmælendur því handteknir eða barðir fyrir skrítnustu
+sakir, þrátt fyrir að stunda athæfi sem varið var af stjórnarskránni.
+
+Það er ekki gaman að vera handtekinn. Þú er rifin af þeim stað sem þú ert
+staddur á, fluttur, nauðugur annað, án þess að vita hvert, niðurlægður, hamlað
+líkamlegum þörfum eins og svefni, mat og klósettferðum (a.m.k. á meðan
+handtökunni stendur sem getur varið í nokkrar klukkustundir), þú er skilin við
+eigur þínar (í mínu tilfelli voru það aleigurnar í bakpokanum mínum) og veist
+ekki hvort þú sjáir þær aftur, þú ert sviftur frelsi þínu, þú er neyddur
+til að hlýða þessum ruddum sem svona fara með þig og svo ertu skilin eftir í
+einhverju búri, þar sem löggunni hentar. Þetta er ekki reynsla sem þú vilt
+endurtaka. Og það veit löggan. Sama þó fallið sé frá öllum ákærum, þá eru
+líkurnar á að þú endurtakir það sem þú varst handtekin fyrir litlar. Þú vilt
+ekki endurtaka þessa reynslu. Þess vegna svaf ég ekki fyrir framan
+seðlabankann nóttina eftir það að vera handtekinn, þess vegna svaf gott sem
+engin fyrir framan seðlabankann næstu vikurnar eftir þessar aðgerðir.
+
+Nú þegar tjaldbúðir og götutökur voru ekki lengur hluti af mótmælunum, sópað
+burt af réttarríkinu, hvað gerum við þá? Hvert verður nú stefnt?
+
+Flestir voru sammála um að beinar aðgerðir myndu halda áfram, að fólk myndi
+áfram flykkjast á göturnar, segja sín slagorð, bera sín skilti, hrópa burtu
+kapítalismann. „Nú þegar við höfum náð athyggli þinni, svona fer maður
+að. Svona getum við byggt okkar samfélag, án þess að mismuna hvoru öðru. Og
+svona komum við þeim burt sem hindra okkur frá því að gera það.“
+
 Occupy the South West
 ---------------------
 
